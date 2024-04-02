@@ -1,0 +1,59 @@
+<body>
+    <section class="welcome" (click)="hideShowMenu()">
+        @if (!menu) {
+        <mat-icon>
+            menu_open
+        </mat-icon>
+        }@else{
+        <mat-icon>
+            hide_source
+        </mat-icon>
+        }
+    </section>
+    @if (menu) {
+    <nav class="nav">
+        <ul class="nav_list">
+            <li class="nav_item" (click)="showHome()" routerLink="/">
+                <figure class="nav_figure">
+                    <mat-icon class="nav_images">
+                        home
+                    </mat-icon>
+                </figure>
+                <article class="nav_article">
+                    <p class="nav_text">Inicio</p>
+                </article>
+            </li>
+            <li class="nav_item" (click)="hideShow()" routerLink="experience">
+                <figure class="nav_figure">
+                    <mat-icon class="nav_images">
+                        engineering
+                    </mat-icon>
+                </figure>
+                <article class="nav_article">
+                    <p class="nav_text">Experiencia</p>
+                </article>
+            </li>
+            <li class="nav_item" (click)="hideShow()" routerLink="studies">
+                <figure class="nav_figure">
+                    <mat-icon class="nav_images">
+                        import_contacts
+                    </mat-icon>
+                </figure>
+                <article class="nav_article">
+                    <p class="nav_text">Estudios</p>
+                </article>
+            </li>
+            <li class="nav_item" (click)="hideShow()" routerLink="contact">
+                <figure class="nav_figure">
+                    <mat-icon class="nav_images">
+                        contacts
+                    </mat-icon>
+                </figure>
+                <article class="nav_article">
+                    <p class="nav_text">Contacto</p>
+                </article>
+            </li>
+        </ul>
+    </nav>
+    }
+</body>

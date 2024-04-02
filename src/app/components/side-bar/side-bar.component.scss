@@ -1,0 +1,96 @@
+.nav{
+    background-color: black;
+    border-radius: 0 12px 12px 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 50vh;
+
+    --grid-columns-nav: max-content 0fr;
+}
+
+.nav:has(:hover){
+    --grid-columns-nav: max-content 1fr;
+}
+
+.nav_list{
+    padding-left: 1rem;
+}
+
+.nav_item{
+    color: white;
+    position: relative;
+    margin-top: 1rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: var(--grid-columns-nav);
+    transition: grid-template-columns .3s;
+    border-radius: 8px;
+}
+
+.nav_item::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    bottom: -0.5rem;
+    background-color: gray;
+    opacity: 0;
+    right: 0px;
+    transition: 0.3s ease;
+}
+
+.nav_item:hover{
+    cursor: pointer;
+    background-color: var(--nav-bg-color);
+}
+
+.nav_item:hover::before{
+    opacity: 1;
+}
+
+.nav_images{
+    margin-top: 5px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav_article{
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.nav_text{
+    padding-right: 1rem;
+}
+
+.welcome {
+    position: fixed;
+    left: 0;
+    top: 250%;
+    transform: translateY(250%);
+    border-radius: 0 8px 8px 0;
+    padding: 10px;
+    border-top: solid 1px gray;
+    border-right: solid 1px gray;
+    border-bottom: solid 1px gray;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    z-index: 100;
+
+    &:hover {
+        background-color: gray;
+    }
+
+    span {
+        font-size: 16px;
+    }
+}

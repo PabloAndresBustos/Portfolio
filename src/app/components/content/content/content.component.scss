@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+
+    .content {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+
+        .circles{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+            .circle0, 
+            .circle1,
+            .circle2 {
+                border: 1px solid white;
+                position: absolute;
+                border-radius: 50%;
+                animation: animateGradient 2s linear infinite, animateCircles 2s linear infinite; 
+                           
+            }
+
+            .circle0 {
+                background-color: red;
+                width: 380px;
+                height: 380px;
+                z-index: 4;
+            }
+            
+            .circle1 {
+                background-color: green;
+                width: 360px;
+                height: 360px;
+                z-index: 5;
+            } 
+    
+            .circle2 {
+                background-color: blue;
+                width: 340px;
+                height: 340px;
+                z-index: 6;
+            } 
+
+            .center {
+                background-image: url("/assets/images/Perfil.png");
+                background-position: center;
+                background-size: 280px;
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                z-index: 40;
+    
+                .text{
+                    position: absolute;
+                    width: fit-content;
+                    height: fit-content;
+                    color: white;
+                    transform-origin: center center;
+                    animation: textAnimation 30s linear infinite;
+                    left: 27.5%;
+                    top: 51%;
+                }
+            }
+        }
+
+        .name-container{
+            overflow-x: hidden;
+
+            .name {
+                margin-left: 30px;
+                float: right;
+                color: transparent;
+                background: linear-gradient(to right, red, blue);
+                -webkit-background-clip: text;
+                background-clip: text;
+                animation: animateGradient 5s linear infinite;
+                font-size: 60px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+
+
+        @keyframes animateGradient {
+            from {
+                filter: hue-rotate(0deg);
+            }
+
+            to {
+                filter: hue-rotate(360deg);
+            }
+        }
+
+        @keyframes animateCircles {
+            from {
+                opacity: 1;
+                scale: 0;
+            }
+
+            to {
+                opacity: 0;
+                scale: 1;
+            }
+        }
+
+        @keyframes textAnimation {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .button {
+        width: fit-content;
+        height: fit-content;
+        color: white;
+        padding: 15px;
+        border: solid 3px gray;
+        border-radius: 8px;
+    }
+
+    app-pop-up{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        z-index: 90;
+    }
+
+    .close{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 8.5%;
+        left: 73.5%;
+        background-color: black;
+        border: 1px solid gray;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        color: white;
+        z-index: 91;
+        cursor: pointer;
+    }
+
+    .button:hover{
+        background: linear-gradient(to right, red, blue);
+        animation: animateGradient 2s linear infinite;
+        cursor: pointer;
+    }
+
+    .drop-down {
+        width: fit-content;
+        height: fit-content;
+
+        mat-icon{
+            color: white;
+            margin-top: 40px;
+        }
+    }
+
+    app-about-me{
+        margin-top: 80px;
+    }
+}

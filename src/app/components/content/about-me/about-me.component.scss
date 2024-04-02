@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe{
+    margin-top: 20px;
+    width: 600px;
+    height: 400px;
+}

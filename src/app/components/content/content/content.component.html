@@ -1,0 +1,38 @@
+<body>
+    <div class="content">
+        <div class="circles" #circles>
+            <div class="circle0"></div>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="center">
+                <p class="text" #text>
+                    - Full Stack Angular Developer - 
+                    APP Help Desk Support -</p>
+            </div>
+        </div>
+        <div class="name-container">
+            <span class="name" #name>
+                Pablo Andres Bustos
+            </span>
+        </div>
+    </div>
+    <span class="button" (click)="showPopUp()">
+        Descubreme!
+    </span>
+    @if (popUpShow()) {
+        <span class="close" (click)="showPopUp()">
+            <mat-icon>
+                close
+            </mat-icon>
+        </span>
+        <app-pop-up />
+    }
+    <span class="drop-down">
+        <mat-icon>
+            expand_more
+        </mat-icon>
+    </span>
+    @defer {
+    <app-about-me #about/>
+    }
+</body>
