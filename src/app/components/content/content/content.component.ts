@@ -4,17 +4,18 @@ import {
   HostListener, 
   ElementRef, 
   ViewChild, 
-  AfterViewInit 
+  AfterViewInit
 } from '@angular/core';
 
 import { MatIconModule } from '@angular/material/icon'
 import { AboutMeComponent } from '../about-me/about-me.component';
 import { PopUpComponent } from '../pop-up/pop-up.component';
+import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
 
 @Component({
   selector: 'app-content',
   standalone: true,
-  imports: [MatIconModule, AboutMeComponent, PopUpComponent],
+  imports: [MatIconModule, AboutMeComponent, PopUpComponent, FadeInOutDirective],
   templateUrl: './content.component.html',
   styleUrl: './content.component.scss'
 })
@@ -24,6 +25,7 @@ export class ContentComponent implements AfterViewInit {
 
   showPopUp(){
     this.popUpShow.update((value) => value = !value)
+    
   }
 
   /* Dispocsicion del texto al rededor de la fotografia */

@@ -25,7 +25,7 @@
 .nav_item{
     color: white;
     position: relative;
-    //margin-top: 1rem;
+    margin-top: 1rem;
     display: grid;
     align-items: center;
     grid-template-columns: var(--grid-columns-nav);
@@ -74,9 +74,9 @@
 .welcome {
     position: fixed;
     left: 0;
-    transform: translateY(272%);
+    transform: translateY(338%);
     border-radius: 0 8px 8px 0;
-    padding: 10px;
+    padding: 5px;
     border-top: solid 1px gray;
     border-right: solid 1px gray;
     border-bottom: solid 1px gray;

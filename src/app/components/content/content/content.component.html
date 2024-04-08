@@ -6,7 +6,7 @@
             <div class="circle2"></div>
             <div class="center">
                 <p class="text" #text>
-                    ● Full Stack Angular Developer ● 
+                    ● Full Stack Angular Developer ●
                     APP Help Desk Support ●</p>
             </div>
         </div>
@@ -20,12 +20,14 @@
         Descubreme!
     </span>
     @if (popUpShow()) {
+    <div class="pop-up" fadeInOut>
         <span class="close" (click)="showPopUp()">
             <mat-icon>
                 close
             </mat-icon>
         </span>
         <app-pop-up />
+    </div>
     }
     <span class="drop-down">
         <mat-icon>

@@ -1,0 +1,20 @@
+[
+    { 
+        "id": 1,    
+        "empresa": "EMSER",
+        "puesto": "APP Help Desk",
+        "ingreso": "10/01/2023",
+        "egreso": "00/00/0000",
+        "tareasRealizadas": "Mi experiencia incluye brindar soporte técnico tanto a la plataforma ArcorNet, diseñada para la carga de pedidos de Arcor por parte de distribuidores, como a la aplicación móvil de GEV, destinada a los preventistas de Arcor. Además, VIPO, una aplicación web integral que abarca un apartado móvil y un BackOffice para la gestión de usuarios y puntos de ventas.",
+        "logros": "Durante mi tiempo en estos proyectos, he adquirido un profundo conocimiento en la resolución de problemas técnicos y en la garantía del funcionamiento fluido de estas plataformas críticas para la operación de la empresa."
+    },
+    {
+        "id": 2,
+        "empresa": "Apex",
+        "puesto": "APP Help Desk",
+        "ingreso": "22/09/2007",
+        "egreso": "10/01/2023",
+        "tareasRealizadas": "Comencé mi trayectoria profesional brindando soporte técnico a usuarios de servicios de telecomunicaciones en Movistar, donde me encargaba de resolver incidencias relacionadas con internet residencial y líneas telefónicas fijas. Posteriormente, asumí responsabilidades en el ámbito corporativo al ofrecer soporte en Claro, donde mi labor consistía en configurar y mantener la conectividad de switches de fibra óptica, realizar verificaciones de mediatrix y atender solicitudes de cambio de cintas en el data center. Durante esta etapa, gestioné eficientemente todos los incidentes y solicitudes a través del sistema SAP, garantizando un seguimiento meticuloso y una resolución oportuna para cada caso. Más adelante, mi experiencia se amplió al proporcionar soporte técnico para la aplicación Naranja X, donde me encargaba de identificar y diagnosticar errores, para luego canalizarlos al equipo de BackOffice de Naranja y asegurar su pronta resolución.",
+        "logros": "Durante mi tiempo en estos proyectos, he adquirido un profundo conocimiento en la resolución de problemas técnicos y en la garantía del funcionamiento fluido de estas plataformas críticas para la operación de la empresa."
+    }
+]

@@ -2,11 +2,12 @@ import { Component, inject, model } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon'
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { ViewsService } from 'app/services/views.service';
+import { WidthExpandDirective } from '../directives/expand/width-expand.directive';
 
 @Component({
   selector: 'app-side-bar',
   standalone: true,
-  imports: [MatIconModule, RouterLink, RouterOutlet],
+  imports: [MatIconModule, RouterLink, RouterOutlet, WidthExpandDirective],
   templateUrl: './side-bar.component.html',
   styleUrl: './side-bar.component.scss'
 })

@@ -67,7 +67,7 @@ body {
                     transform-origin: center center;
                     animation: textAnimation 30s linear infinite;
                     left: 27.5%;
-                    top: 51%;
+                    top: 47%;
                 }
             }
         }
@@ -79,7 +79,7 @@ body {
                 margin-left: 30px;
                 float: right;
                 color: transparent;
-                background: linear-gradient(to right, red, blue);
+                background: linear-gradient(to right, blue, red);
                 -webkit-background-clip: text;
                 background-clip: text;
                 animation: animateGradient 5s linear infinite;
@@ -132,31 +132,37 @@ body {
         border-radius: 8px;
     }
 
-    app-pop-up{
+    .pop-up{
+
         position: absolute;
+        backdrop-filter: blur(10px);
+        width: 90%;
+        height: 160vh;
         top: 10%;
         left: 50%;
         transform: translateX(-50%);
         color: white;
         z-index: 90;
+    
+        .close{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -1%;
+            left: 76.5%;
+            background-color: black;
+            border: 1px solid gray;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            color: white;
+            z-index: 91;
+            cursor: pointer;
+        }
     }
 
-    .close{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 8.5%;
-        left: 73.5%;
-        background-color: black;
-        border: 1px solid gray;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-        color: white;
-        z-index: 91;
-        cursor: pointer;
-    }
+
 
     .button:hover{
         background: linear-gradient(to right, red, blue);

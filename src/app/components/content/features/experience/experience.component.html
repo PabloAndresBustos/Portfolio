@@ -1,1 +1,12 @@
 <h1>Experiencia</h1>
+
+<div>
+@for (work of text; track work.id) {
+    <app-experience-details 
+    [empresa]="work.empresa"
+    [logo]="'https://www.emser.net/static/images/emser.jpg'"
+    [tareasRealizadas]="work.tareasRealizadas"
+    [logorsConseguidos]="work.logros"
+    />
+}
+</div>

@@ -5,8 +5,6 @@ import { Injectable, model } from '@angular/core';
 })
 export class ViewsService {
 
-  constructor() { }
-
   hideShowLanding = model<boolean>(true);
 
 }
