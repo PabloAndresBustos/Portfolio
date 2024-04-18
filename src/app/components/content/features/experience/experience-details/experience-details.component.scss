@@ -1,3 +1,87 @@
-*{
+* {
     color: white;
+}
+
+.body-card {
+    border: solid 1px gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    .top-card {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            max-width: 200px;
+            max-height: 100px;
+            mask-image: linear-gradient(black 80%, transparent);
+        }
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card-task {
+            border: solid 1px gray;
+            border-radius: 8px;
+            margin-top: 20px;
+
+            h3 {
+                text-align: center;
+                background-color: gray;
+                color: black;
+                border-radius: 8px 8px 0 0;
+            }
+
+            p {
+                padding: 10px;
+            }
+        }
+
+        .card-achievements {
+            background-color: black;
+            margin-top: 20px;
+            border: solid 1px gray;
+            border-radius: 8px;
+
+            h3 {
+                text-align: center;
+                background-color: gray;
+                color: black;
+                border-radius: 8px 8px 0 0;
+            }
+
+            p{
+                padding: 10px;
+            }
+
+        }
+
+        .show-achievements {
+            margin-top: 10px;
+            animation: show 0.5s linear infinite;
+            font-size: 32px;
+            width: fit-content;
+        }
+
+        @keyframes show {
+            from {
+                transform: translateY(5px);
+            }
+
+            to {
+                transform: translateY(-5px);
+            }
+        }
+    }
+
+/*     &:hover .card-content .card-achievements {
+        opacity: 1;
+    } */
 }

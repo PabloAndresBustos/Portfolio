@@ -12,9 +12,9 @@ export const routes: Routes = [
                 .then(cs => cs.StudiesComponent)
     },
     {
-        path: 'contact', loadComponent: () =>
-            import('./components/content/features/contact/contact.component')
-                .then(cc => cc.ContactComponent)
+        path: 'proyects', loadComponent: () =>
+            import('./components/content/features/proyects/proyects.component')
+                .then(cc => cc.ProyectsComponent)
     }
 
     //{ path: '', redirectTo: '/', pathMatch: 'full' },

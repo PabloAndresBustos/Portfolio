@@ -2,12 +2,20 @@ import { Component, OnInit, inject } from '@angular/core';
 import { ExperienceDetailsComponent } from './experience-details/experience-details.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { tap } from 'rxjs';
+import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
+import { MatIconModule } from '@angular/material/icon';
+import { RouterLink } from '@angular/router';
 
 
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [ExperienceDetailsComponent, HttpClientModule],
+  imports: [
+    ExperienceDetailsComponent, 
+    HttpClientModule, 
+    FadeInOutDirective, 
+    MatIconModule
+  ],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss'
 })

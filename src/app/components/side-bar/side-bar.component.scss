@@ -11,10 +11,6 @@
     border-bottom: 1px solid gray;
     height: 50vh;
 
-    --grid-columns-nav: max-content 0fr;
-}
-
-.nav:has(:hover){
     --grid-columns-nav: max-content 1fr;
 }
 
@@ -72,6 +68,7 @@
 }
 
 .welcome {
+    background-color: black;
     position: fixed;
     left: 0;
     transform: translateY(338%);

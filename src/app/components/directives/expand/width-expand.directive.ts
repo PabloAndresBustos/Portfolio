@@ -2,7 +2,7 @@ import { AnimationBuilder, animate, style } from '@angular/animations';
 import { Directive, ElementRef, OnInit, inject } from '@angular/core';
 
 @Directive({
-  selector: '[Expand]',
+  selector: '[expand]',
   standalone: true
 })
 export class WidthExpandDirective implements OnInit{

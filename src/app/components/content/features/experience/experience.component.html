@@ -1,12 +1,24 @@
-<h1>Experiencia</h1>
+<div class="container" fadeInOut>
+    <h1 class="title">
+        <mat-icon>
+            arrow_back
+        </mat-icon>
+             Experiencia
+        <mat-icon>
+            arrow_forward
+        </mat-icon>
+    </h1>
 
-<div>
-@for (work of text; track work.id) {
-    <app-experience-details 
-    [empresa]="work.empresa"
-    [logo]="'https://www.emser.net/static/images/emser.jpg'"
-    [tareasRealizadas]="work.tareasRealizadas"
-    [logorsConseguidos]="work.logros"
-    />
-}
+    
+    <div class="content-details">
+        @for (work of text; track work.id) {
+        <app-experience-details 
+        [logo]='work.logo' 
+        [tareasRealizadas]='work.tareasRealizadas'   
+        [logorsConseguidos]='work.logros'
+        [startDate]='work.ingreso'
+        [endDate]='work.egreso'
+         />
+        }
+    </div>
 </div>

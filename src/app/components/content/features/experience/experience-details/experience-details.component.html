@@ -1,14 +1,17 @@
-<section>
-    <section>
-        <h2>{{ empresa }}</h2>
+<section class="body-card">
+    <section class="top-card">
         <img src={{logo}}>
+        <h3>Fecha de ingreso: {{ startDate }} ● Fecha de egreso: {{ endDate }}</h3>
     </section>
-    <section>
-        <div>
+    <section class="card-content">
+        <div class="card-task">
             <h3>Tareas</h3>
             <p>{{ tareasRealizadas }}</p>
         </div>
-        <div>
+        <mat-icon class="show-achievements">
+            expand_more
+        </mat-icon>
+        <div class="card-achievements">
             <h3>Logros</h3>
             <p>{{ logorsConseguidos }}</p>
         </div>

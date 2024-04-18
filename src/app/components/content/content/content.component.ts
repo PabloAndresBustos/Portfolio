@@ -4,18 +4,26 @@ import {
   HostListener, 
   ElementRef, 
   ViewChild, 
-  AfterViewInit
+  AfterViewInit,
+  Inject
 } from '@angular/core';
 
 import { MatIconModule } from '@angular/material/icon'
 import { AboutMeComponent } from '../about-me/about-me.component';
 import { PopUpComponent } from '../pop-up/pop-up.component';
 import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-content',
   standalone: true,
-  imports: [MatIconModule, AboutMeComponent, PopUpComponent, FadeInOutDirective],
+  imports: [
+    MatIconModule, 
+    AboutMeComponent, 
+    PopUpComponent, 
+    FadeInOutDirective,
+    FontAwesomeModule
+  ],
   templateUrl: './content.component.html',
   styleUrl: './content.component.scss'
 })
@@ -25,7 +33,6 @@ export class ContentComponent implements AfterViewInit {
 
   showPopUp(){
     this.popUpShow.update((value) => value = !value)
-    
   }
 
   /* Dispocsicion del texto al rededor de la fotografia */
@@ -36,6 +43,8 @@ export class ContentComponent implements AfterViewInit {
   /* Animando el nombre y fotorgrafia */
   @ViewChild('name') name!: ElementRef;
   @ViewChild('circles') circles!: ElementRef;
+  @ViewChild('linkedin') linkedin!: ElementRef;
+  @ViewChild('github') github!: ElementRef;
 
 
   @HostListener('window:scroll', ['$event'])
@@ -53,6 +62,22 @@ export class ContentComponent implements AfterViewInit {
     }
   }
 
+  /* Redireccion a GitHub y LinkedIn */
+  linkedInDir:string = 'https://www.linkedin.com/in/pipablo/';
+  githubDir:string = 'https://github.com/PabloAndresBustos';
+
+  @HostListener('click', ['$event.target']) onClick(target: any): void{
+
+    if(this.linkedin.nativeElement.contains(target)){
+      window.open(this.linkedInDir, '_blank');
+    }
+
+    if(this.github.nativeElement.contains(target)){
+      window.open(this.githubDir, '_blank');
+    }
+  }
+
+  /* Animacion de las letras */
   ngAfterViewInit(): void {
     this.skillText = this.text.nativeElement.innerHTML;
 
