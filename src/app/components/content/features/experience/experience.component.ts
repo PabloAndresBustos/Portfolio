@@ -1,17 +1,15 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { ExperienceDetailsComponent } from './experience-details/experience-details.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { tap } from 'rxjs';
 import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
 import { MatIconModule } from '@angular/material/icon';
-import { RouterLink } from '@angular/router';
+import { CardsDetailsComponent } from '../cards-details/cards-details.component';
 
 
 @Component({
   selector: 'app-experience',
   standalone: true,
   imports: [
-    ExperienceDetailsComponent, 
+    CardsDetailsComponent, 
     HttpClientModule, 
     FadeInOutDirective, 
     MatIconModule
@@ -21,18 +19,16 @@ import { RouterLink } from '@angular/router';
 })
 export class ExperienceComponent implements OnInit{
 
-  text:any;
+  experienceList:any;
 
   http = inject(HttpClient)
 
   languaje:boolean = true
 
   getExperience():void {
-    this.http.get<any>('/assets/text/experience/experience.JSON')
-    .pipe(tap(data => console.log(data)))
+    this.http.get<any>('/assets/interface/experience/experience.JSON')
     .subscribe(data => {
-                        this.text = data;
-                        console.log(this.text)
+                        this.experienceList = data;
                       })
   }
 

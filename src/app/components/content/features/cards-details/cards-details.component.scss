@@ -70,6 +70,31 @@
             width: fit-content;
         }
 
+        .certificate{
+            margin-top: 25px;
+            padding: 10px;
+            border: solid 2px gray;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .certificate:hover{
+            background: linear-gradient(to right, blue, red);
+            animation: animateGradient 5s linear infinite;
+        }
+
+        @keyframes animateGradient {
+            from {
+                filter: hue-rotate(0deg);
+            }
+
+            to {
+                filter: hue-rotate(360deg);
+            }
+        }
+
+
         @keyframes show {
             from {
                 transform: translateY(5px);

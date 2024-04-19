@@ -1,0 +1,32 @@
+[
+    { 
+        "id": 1,    
+        "lugar": "Codo a Codo",
+        "logo": "https://inscripcionesagencia.bue.edu.ar/codoacodo/img/graficos/logoCACsinbloque.png",
+        "ingreso": "10/03/2024",
+        "estado": "Actualidad",
+        "tareasRealizadas": "Desarrollo BackEnd con Python, Desarrollo FrontEnd con HTML, CSS, Bootstrap y JavaScript",
+        "logros": "- EN DESARROLLO - Actualmente estoy cursando, por lo que aun no contamos con los logros del curso",
+        "certificado": ""
+    },
+    {
+        "id": 2,
+        "lugar": "Technology with Propouse - Santex",
+        "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+        "ingreso": "14/03/2023",
+        "estado": "23/10/2023",
+        "tareasRealizadas": "Desarrollo FrontEnd con Angular ● Desarrollo BackEnd con Node.js ● SCRUM ● Docker ● Base de datos SQL con MySQL ● Linux ● Google API's",
+        "logros": "Participamos en el desarrollo de una APP WEB para la creacion de Curriculums de la Municipalidad de Catamarca",
+        "certificado": "https://drive.google.com/file/d/1ARHYdvL2BOAGxU9yuNU8mUD8Sk7eWW49/view?usp=sharing"
+    },
+    {
+        "id": 3,
+        "lugar": "Alura",
+        "logo": "https://www.aluracursos.com/assets/img/home/alura-logo.1712144089.svg ",
+        "ingreso": "07/04/2022",
+        "estado": "19/01/2023",
+        "tareasRealizadas": "Desarrollo FrontEnd con JavaScript, HTML, CSS ● Formacion Oracle Cloud Infrastucture ● Formacion SQL con MySQL",
+        "logros": "Me encuentro Certificado por Oracle en el desarrollo WEB y en el modelo OSI de Oracle Cloud Infrastucture",
+        "certificado": "https://app.aluracursos.com/user/pabloandresbustos/fullCertificate/a36410a70ade907b00da8ba382d5ce49"
+    }
+]

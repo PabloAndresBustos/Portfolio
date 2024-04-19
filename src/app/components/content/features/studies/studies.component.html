@@ -1,1 +1,26 @@
-<h1>Estudios</h1>
+<div class="container" fadeInOut>
+    <h1 class="title">
+        <mat-icon>
+            arrow_back
+        </mat-icon>
+             Estudios
+        <mat-icon>
+            arrow_forward
+        </mat-icon>
+    </h1>
+
+    
+    <div class="content-details">
+        @for (studie of studiesList; track studie.id) {
+            <app-cards-details 
+            [logo]="studie.logo" 
+            [startDate]="studie.ingreso"
+            [endDate]="studie.estado"
+            [tareasRealizadas]="studie.tareasRealizadas"
+            [logorsConseguidos]="studie.logros"
+            [certificate]="true"
+            [certificado]="studie.certificado"
+            />
+        }
+    </div>
+</div>

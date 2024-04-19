@@ -15,5 +15,9 @@
             <h3>Logros</h3>
             <p>{{ logorsConseguidos }}</p>
         </div>
+        @if(certificate && certificado !== ""){
+            <a href="{{certificado}}" target="_blank" class="certificate">Certificado</a>
+        }
     </section>
 </section>
+

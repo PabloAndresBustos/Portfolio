@@ -11,13 +11,13 @@
 
     
     <div class="content-details">
-        @for (work of text; track work.id) {
-        <app-experience-details 
-        [logo]='work.logo' 
-        [tareasRealizadas]='work.tareasRealizadas'   
-        [logorsConseguidos]='work.logros'
-        [startDate]='work.ingreso'
-        [endDate]='work.egreso'
+        @for (work of experienceList; track work.id) {
+         <app-cards-details 
+         [logo]='work.logo' 
+         [tareasRealizadas]='work.tareasRealizadas'   
+         [logorsConseguidos]='work.logros'
+         [startDate]='work.ingreso'
+         [endDate]='work.egreso'
          />
         }
     </div>
