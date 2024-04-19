@@ -16,6 +16,8 @@ export class StudiesComponent implements OnInit {
 
   http = inject(HttpClient);
 
+  nameButton:string = "Certificado";
+
   getStudies():void {
     this.http.get<any>('/assets/interface/studies/studies.JSON')
     .subscribe( data => {

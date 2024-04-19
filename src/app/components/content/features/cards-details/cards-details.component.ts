@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-cards-details',
   standalone: true,
-  imports: [MatIconModule],
+  imports: [MatIconModule, RouterLink],
   templateUrl: './cards-details.component.html',
   styleUrl: './cards-details.component.scss'
 })
@@ -19,5 +20,6 @@ export class CardsDetailsComponent {
   @Input() endDate:string = '';
   @Input() certificate:boolean = false;
   @Input() certificado:string = "";
+  @Input() buttonName:string = "";
 
 }

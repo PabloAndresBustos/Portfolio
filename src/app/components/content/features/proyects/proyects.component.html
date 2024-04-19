@@ -11,6 +11,13 @@
 
     
     <div class="content-details">
+        @for (proyect of proyectList; track proyect.id) {
+            <app-cards-details  
+            [certificate]="true"
+            [certificado]="proyect.certificado"
+            [buttonName]="nameButton"
+            />
+        }
     </div>
 </div>
 
