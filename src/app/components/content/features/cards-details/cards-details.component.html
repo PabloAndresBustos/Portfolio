@@ -7,7 +7,11 @@
     </section>
     <section class="card-content">
         <div class="card-task">
-            <h3>Tareas</h3>
+            @if(title){
+                <h3>Tareas</h3>
+            }@else {
+                <h3>{{ titleText }}</h3>
+            }
             <p>{{ tareasRealizadas }}</p>
         </div>
         <mat-icon class="show-achievements">

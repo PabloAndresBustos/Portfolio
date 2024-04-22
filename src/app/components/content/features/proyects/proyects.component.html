@@ -13,6 +13,8 @@
     <div class="content-details">
         @for (proyect of proyectList; track proyect.id) {
             <app-cards-details 
+            [title]="false"
+            [titleText]="proyect.name"
             [logo]="proyect.logo"
             [tareasRealizadas]="proyect.tareasRealizadas"
             [logorsConseguidos]="proyect.logros"
