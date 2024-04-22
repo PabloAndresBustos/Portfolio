@@ -21,5 +21,6 @@ export class CardsDetailsComponent {
   @Input() certificate:boolean = false;
   @Input() certificado:string = "";
   @Input() buttonName:string = "";
+  @Input() dates:boolean = true;
 
 }

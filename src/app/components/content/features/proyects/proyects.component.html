@@ -12,9 +12,13 @@
     
     <div class="content-details">
         @for (proyect of proyectList; track proyect.id) {
-            <app-cards-details  
+            <app-cards-details 
+            [logo]="proyect.logo"
+            [tareasRealizadas]="proyect.tareasRealizadas"
+            [logorsConseguidos]="proyect.logros"
+            [dates]="false" 
             [certificate]="true"
-            [certificado]="proyect.certificado"
+            [certificado]="proyect.repository"
             [buttonName]="nameButton"
             />
         }

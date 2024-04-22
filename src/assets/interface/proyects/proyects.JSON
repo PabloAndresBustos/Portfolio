@@ -1,0 +1,29 @@
+[
+    { 
+        "id": 1,    
+        "lugar": "Alura",
+        "logo": "https://www.emser.net/static/images/emser.jpg",
+        "nombre": "Arcor Sustitutos",
+        "tareasRealizadas": "Este proyecto se llama - Arcor Sustitutos - No era posible realizar la carga de pedidos, por el cambio de ciertos codigos.",
+        "logros": "Esto complicaba el soporte, por lo que diseñe una APP para realizar los cambios de los codigos de manera automatica en los excel, Esta Aplicaion esta realizada con Node.js, XLSX-Populate, EJS, FS y Multer, como principales herramientas.",
+        "repository": "https://arcorsustitutos.up.railway.app/"
+    },
+    {
+        "id": 2,
+        "lugar": "Alura",
+        "logo": "https://www.aluracursos.com/assets/img/home/alura-logo.1712144089.svg",
+        "nombre": "",
+        "tareasRealizadas": "",
+        "logros": "",
+        "repository": "Buenas"
+    },
+    {
+        "id": 3,
+        "lugar": "Alura",
+        "logo": "https://www.aluracursos.com/assets/img/home/alura-logo.1712144089.svg",
+        "nombre": "",
+        "tareasRealizadas": "",
+        "logros": "",
+        "repository": "Chau"
+    }
+]

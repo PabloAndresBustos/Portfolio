@@ -1,7 +1,9 @@
 <section class="body-card">
     <section class="top-card">
         <img src={{logo}}>
-        <h3>Fecha de ingreso: {{ startDate }} ● Fecha de egreso: {{ endDate }}</h3>
+        @if (dates) {
+            <h3>Fecha de ingreso: {{ startDate }} ● Fecha de egreso: {{ endDate }}</h3>
+        }
     </section>
     <section class="card-content">
         <div class="card-task">
