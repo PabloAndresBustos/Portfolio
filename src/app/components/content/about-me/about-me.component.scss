@@ -15,3 +15,11 @@ body{
     width: 600px;
     height: 400px;
 }
+
+@media (min-width:360px) and (max-width:430px) {
+    .aboutMe{
+        padding: 0 0 0 25px;
+        width: fit-content;
+        height: max-content;
+    }
+}

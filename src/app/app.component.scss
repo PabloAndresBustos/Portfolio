@@ -1,7 +1,7 @@
 body {
   display: flex;
   
-  app-side-bar {
+  .side-bar {
     background-color: black;
     position: fixed;
     left: 0;
@@ -17,4 +17,12 @@ body {
     float: right;
     width: 100%;
   }
+}
+
+@media (min-width:360px) and (max-width:430px) {
+
+  .side-bar{
+    width: 40%;
+  }
+  
 }
