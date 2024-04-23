@@ -94,9 +94,8 @@
 @media (min-width:360px) and (max-width:430px){
     .nav{
         width: 40%;
-        height: 30vh;
+        height: fit-content;
         padding-left: 20px;
         margin-right: 10%;
-        background-color: red;
     }
 }

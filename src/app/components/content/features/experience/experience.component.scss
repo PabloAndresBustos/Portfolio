@@ -16,5 +16,12 @@
     .content-details{
         margin-top: 100px;
     }
+}
 
+@media (min-width:360px) and (max-width:430px) {
+    .container{
+        margin-bottom: 50%;
+        margin-left: 10%;
+        width: 80%;
+    }
 }

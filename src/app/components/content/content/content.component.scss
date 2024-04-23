@@ -241,7 +241,7 @@ body {
 
 @media (min-width:360px) and (max-width:430px) {
 
-    body{
+    body {
         height: 120%;
     }
 
@@ -253,28 +253,31 @@ body {
         flex-direction: column;
     }
 
-    .center{
+    .center {
         position: relative;
     }
 
-    .text{
+    .text {
         margin-left: 22%;
         margin-top: -1%;
     }
 
-    .name-container{
+    .name-container {
         margin-top: 30px;
     }
 
-    .button{
+    .button {
         margin-top: 20px;
     }
 
-    .pop-up{
-        width: 100%;
+    body {
+        .pop-up {
+            top: 10%;
+            width: 90%;
 
-        .close{
-            margin-left: 20%;
+            .close {
+                margin-left: 20%;
+            }
         }
     }
 }
