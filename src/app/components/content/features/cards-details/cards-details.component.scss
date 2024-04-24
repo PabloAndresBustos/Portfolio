@@ -79,9 +79,24 @@
             text-decoration: none;
         }
 
-        .certificate:hover{
+        .certificate:hover, 
+        .download-button:hover {
+            cursor: pointer;
             background: linear-gradient(to right, blue, red);
             animation: animateGradient 5s linear infinite;
+        }
+
+        .download {
+            margin-top: 25px;
+        }
+
+        .download-button {
+            margin-top: 15px;
+            padding: 10px;
+            border: solid 2px gray;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
         }
 
         @keyframes animateGradient {

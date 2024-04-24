@@ -24,6 +24,10 @@
         @if(certificate && certificado !== ""){
             <a href="{{certificado}}" target="_blank" class="certificate">{{ buttonName }}</a>
         }
+        @if(download !== ""){
+            <h4 class="download">Descarga archivos para probar la APP</h4>
+            <a href="{{download}}" target="_blank" type="button" class="download-button">Descarga</a>
+        }
     </section>
 </section>
 

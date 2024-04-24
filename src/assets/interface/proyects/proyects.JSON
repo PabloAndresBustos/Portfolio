@@ -6,7 +6,8 @@
         "name": "Arcor Sustitutos",
         "tareasRealizadas": "Este proyecto se llama - Arcor Sustitutos - No era posible realizar la carga de pedidos, por el cambio de ciertos codigos.",
         "logros": "Esto complicaba el soporte, por lo que diseñe una APP para realizar los cambios de los codigos de manera automatica en los excel, Esta Aplicaion esta realizada con Node.js, XLSX-Populate, EJS, FS y Multer, como principales herramientas.",
-        "repository": "https://arcorsustitutos.up.railway.app/"
+        "repository": "https://arcorsustitutos.up.railway.app/",
+        "download": "https://drive.google.com/drive/folders/15gzyXLhds0mTmPP9W5C1Ci6j5RVaaoHr?usp=sharing"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "name": "CV-ASSITANT",
         "tareasRealizadas": "Trabajo final, para la funcionar que solicita crear una pagina para la creacion de Curriculums vita para la municipalidad de Catamarca",
         "logros": "Se realiza el trabajo practo con Angular 14, Angular Material, Node.js. Google API, Envio de correo para recuperacion de cuenta, Base de datos en MySQL y varias herramientas mas",
-        "repository": "https://github.com/PabloAndresBustos/curriculums"
+        "repository": "https://github.com/PabloAndresBustos/curriculums",
+        "download": ""
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "name": "Technology with porpuse - Copy",
         "tareasRealizadas": "El proyecto es la copia de la Landing Page de Technology with porpuse, este proyecto se solicito en el cursado Full Stack de la fundacion",
         "logros": "Se logra realizar una copia correcta utilizando solo CSS y HTML. A pedidio del mentor no se debia utilziar JavaScript",
-        "repository": "https://technologywithpurpose.vercel.app/"
+        "repository": "https://technologywithpurpose.vercel.app/",
+        "download": ""
     },
     {
         "id": 4,
@@ -42,6 +45,7 @@
         "name": "Libreria",
         "tareasRealizadas": "Se requiere una API REST que permita manejar librerías y los libros asociados a cada una de las librerías. Utilizar Node.Js Express, Sequelize y Passport como la infraestructura para crear el servicio.",
         "logros": "Se crea API permitiendo la creacion de libros, compra, venta, manejo de stock y eliminacion logica en la base de datos",
-        "repository": "https://github.com/PabloAndresBustos/Librerias"
+        "repository": "https://github.com/PabloAndresBustos/Librerias",
+        "download": ""
     }
 ]

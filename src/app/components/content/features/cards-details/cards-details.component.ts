@@ -11,8 +11,6 @@ import { RouterLink } from '@angular/router';
 })
 export class CardsDetailsComponent {
 
-  //certificate:boolean = false;
-
   @Input() logo:string = '';
   @Input() title:boolean = true;
   @Input() titleText:string = "";
@@ -24,4 +22,5 @@ export class CardsDetailsComponent {
   @Input() certificado:string = "";
   @Input() buttonName:string = "";
   @Input() dates:boolean = true;
+  @Input() download:string = "";
 }
