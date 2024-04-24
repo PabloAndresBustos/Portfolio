@@ -13,7 +13,7 @@
     @if (menu) {
     <nav class="nav" Expand>
         <ul class="nav_list">
-            <li class="nav_item" (click)="showHome()" routerLink="/">
+            <li class="nav_item" (click)="showHome()" (click)="hideShowMenu()" routerLink="/">
                 <figure class="nav_figure">
                     <mat-icon class="nav_images">
                         home
@@ -23,7 +23,7 @@
                     <p class="nav_text">Inicio</p>
                 </article>
             </li>
-            <li class="nav_item" (click)="hideShow()" routerLink="experience">
+            <li class="nav_item" (click)="hideShow()" (click)="hideShowMenu()" routerLink="experience">
                 <figure class="nav_figure">
                     <mat-icon class="nav_images">
                         engineering
@@ -33,7 +33,7 @@
                     <p class="nav_text">Experiencia</p>
                 </article>
             </li>
-            <li class="nav_item" (click)="hideShow()" routerLink="studies">
+            <li class="nav_item" (click)="hideShow()" (click)="hideShowMenu()" routerLink="studies">
                 <figure class="nav_figure">
                     <mat-icon class="nav_images">
                         import_contacts
@@ -43,7 +43,7 @@
                     <p class="nav_text">Estudios</p>
                 </article>
             </li>
-            <li class="nav_item" (click)="hideShow()" routerLink="proyects">
+            <li class="nav_item" (click)="hideShow()" (click)="hideShowMenu()" routerLink="proyects">
                 <figure class="nav_figure">
                     <mat-icon class="nav_images">
                         checklist

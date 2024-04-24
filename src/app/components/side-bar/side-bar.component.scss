@@ -94,7 +94,25 @@
 @media (min-width:360px) and (max-width:1080px){
     .nav{
         width: 40%;
-        height: fit-content;
+        height: max-content;
+        padding-left: 20px;
+        margin-right: 10%;
+    }
+}
+
+@media (min-height:1024px) and (max-height:1368px){
+    .nav{
+        width: 20%;
+        height: max-content;
+        padding-left: 20px;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width:1920px){
+    .nav{
+        width: 40%;
+        height: max-content;
         padding-left: 20px;
         margin-right: 10%;
     }

@@ -62,6 +62,7 @@ body {
             justify-content: center;
 
             .center {
+                position: relative;
                 background-image: url("/assets/images/Perfil.png");
                 background-position: center;
                 background-size: 280px;
@@ -77,8 +78,8 @@ body {
                     color: white;
                     transform-origin: center center;
                     animation: textAnimation 30s linear infinite;
-                    left: 27.5%;
-                    top: 51%;
+                    left: 49.5%;
+                    top: 50%;
                 }
             }
         }
@@ -227,8 +228,8 @@ body {
     }
 
     .text {
-        margin-left: 22%;
-        margin-top: -1%;
+        margin-left: 1%;
+        margin-top: 0%;
     }
 
     .name-container {
@@ -248,5 +249,18 @@ body {
                 margin-left: 20%;
             }
         }
+    }
+}
+
+@media (min-height:1024px) and (max-height:1368px){
+    body {
+        height: 160%;
+    }
+}
+
+@media (min-width:1920px){
+    .text {
+        margin-left: 21.5%;
+        margin-top: -1%;
     }
 }
