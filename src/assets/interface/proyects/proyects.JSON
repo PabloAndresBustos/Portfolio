@@ -36,7 +36,8 @@
         "name": "Carrito de Supermercado",
         "tareasRealizadas": "Se Debe realizar con JavaScript el carrito de compras de un supermercado, Se lleva a delante el proyecto con las herramientas requeridas",
         "logros": "Se realiza simulacion de carrito de supermercado, solo con JavaScript las consignas son: ● Una clase Producto que representa un producto que vende el super ● Una clase Carrito que representa el carrito de compras de un cliente ● Una clase ProductoEnCarrito que representa un producto que se agrego al carrito ● Una función findProductBySku que simula una base de datos y busca un producto por su sku",
-        "repository": "https://github.com/PabloAndresBustos/TPintegrador"
+        "repository": "https://github.com/PabloAndresBustos/TPintegrador",
+        "download": ""
     },
     {
         "id": 5,
