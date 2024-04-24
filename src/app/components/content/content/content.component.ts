@@ -5,7 +5,8 @@ import {
   ElementRef, 
   ViewChild, 
   AfterViewInit,
-  Inject
+  inject,
+  OnInit
 } from '@angular/core';
 
 import { MatIconModule } from '@angular/material/icon'
@@ -13,6 +14,7 @@ import { AboutMeComponent } from '../about-me/about-me.component';
 import { PopUpComponent } from '../pop-up/pop-up.component';
 import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ViewsService } from 'app/services/views.service';
 
 @Component({
   selector: 'app-content',
@@ -27,7 +29,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   templateUrl: './content.component.html',
   styleUrl: './content.component.scss'
 })
-export class ContentComponent implements AfterViewInit {
+export class ContentComponent implements AfterViewInit, OnInit {
+
+  viewsServices = inject(ViewsService)
+
+  changeLanguje(){
+    this.viewsServices.languajeSelect.update( value => value = !value);
+    this.viewsServices.lenguaje()
+  }
 
   popUpShow = model<boolean>(false);
 
@@ -109,5 +118,9 @@ export class ContentComponent implements AfterViewInit {
       span.style.top = `calc(47% + ${y}px)`;
       span.style.transform = `translate(-50%, -50%) rotate(${angle * (180 / Math.PI) + 90}deg)`;
     }
+  }
+
+  ngOnInit(): void {
+    this.viewsServices.lenguaje()
   }
 }

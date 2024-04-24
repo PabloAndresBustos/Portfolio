@@ -1,4 +1,4 @@
-import { Component, inject, model } from '@angular/core';
+import { Component, OnInit, inject, model } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon'
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { ViewsService } from 'app/services/views.service';
@@ -11,7 +11,9 @@ import { WidthExpandDirective } from '../directives/expand/width-expand.directiv
   templateUrl: './side-bar.component.html',
   styleUrl: './side-bar.component.scss'
 })
-export class SideBarComponent {
+export class SideBarComponent implements OnInit{
+
+  viewsServices = inject(ViewsService)
 
   /* Visibildada del SideBar */
   menu:boolean = false;
@@ -28,5 +30,9 @@ export class SideBarComponent {
 
   showHome() {
     this.showLanding.hideShowLanding.update((value) => value = true);
+  }
+
+  ngOnInit(): void {
+    this.viewsServices.lenguaje()
   }
 }
