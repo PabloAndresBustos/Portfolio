@@ -16,7 +16,6 @@ import { PopUpComponent } from '../pop-up/pop-up.component';
 import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ViewsService } from 'app/services/views.service';
-import { TitleStrategy } from '@angular/router';
 
 @Component({
   selector: 'app-content',

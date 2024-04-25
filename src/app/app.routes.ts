@@ -15,8 +15,7 @@ export const routes: Routes = [
         path: 'proyects', loadComponent: () =>
             import('./components/content/features/proyects/proyects.component')
                 .then(cc => cc.ProyectsComponent)
-    }
-
+    },
     //{ path: '', redirectTo: '/', pathMatch: 'full' },
-    /* { path: '**', redirectTo: '/', pathMatch: 'full' }, */
+    //{ path: '**', redirectTo: '/', pathMatch: 'full' },
 ];

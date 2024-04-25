@@ -1,4 +1,4 @@
-import { Component, OnInit, inject, model } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild, inject, model} from '@angular/core';
 import { MatIconModule } from '@angular/material/icon'
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { ViewsService } from 'app/services/views.service';
@@ -13,13 +13,30 @@ import { WidthExpandDirective } from '../directives/expand/width-expand.directiv
 })
 export class SideBarComponent implements OnInit{
 
+  @ViewChild('nav') nav!: ElementRef;
+  @ViewChild('welcome') welcome!: ElementRef;
+
+    /* Visibildada del SideBar */
+    menu = model<boolean>(true);
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any){
+    const width = event.target.innerWidth;
+    console.log(width)
+    if(width >= 1365){
+      this.menu.set(true)
+    }
+
+    if(width<=1364){
+      this.menu.set(false)
+    }
+  }
+    
   viewsServices = inject(ViewsService)
 
-  /* Visibildada del SideBar */
-  menu:boolean = false;
 
   hideShowMenu(){
-    this.menu = !this.menu;
+    this.menu.update(value => value = !value);
   }
 
   public showLanding = inject(ViewsService);

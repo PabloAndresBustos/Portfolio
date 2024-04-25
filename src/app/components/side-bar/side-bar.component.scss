@@ -1,24 +1,22 @@
-.nav{
+.nav {
     background-color: black;
-    border-radius: 0 12px 12px 0;
+    border-radius: 0 0 12px 12px;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-    border-bottom: 1px solid gray;
-    height: 50vh;
+    width: 35%;
+    height: 10vh;
 
     --grid-columns-nav: max-content 1fr;
 }
 
-.nav_list{
+.nav_list {
     padding-left: 1rem;
+    display: flex;
 }
 
-.nav_item{
+.nav_item {
     color: white;
     position: relative;
     margin-top: 1rem;
@@ -29,7 +27,7 @@
     border-radius: 8px;
 }
 
-.nav_item::before{
+.nav_item::before {
     content: '';
     position: absolute;
     height: 2px;
@@ -41,42 +39,40 @@
     transition: 0.3s ease;
 }
 
-.nav_item:hover{
+.nav_item:hover {
     cursor: pointer;
     background-color: var(--nav-bg-color);
 }
 
-.nav_item:hover::before{
+.nav_item:hover::before {
     opacity: 1;
 }
 
-.nav_images{
+.nav_images {
     margin-top: 5px;
     padding: 5px;
     width: 30px;
     height: 30px;
 }
 
-.nav_article{
+.nav_article {
     overflow: hidden;
     white-space: nowrap;
     font-weight: bold;
 }
 
-.nav_text{
+.nav_text {
     padding-right: 1rem;
 }
 
 .welcome {
+    display: none;
     background-color: black;
     position: fixed;
-    left: 0;
-    transform: translateY(338%);
-    border-radius: 0 8px 8px 0;
+    top: 20px;
+    border-radius: 8px;
     padding: 5px;
-    border-top: solid 1px gray;
-    border-right: solid 1px gray;
-    border-bottom: solid 1px gray;
+    border: solid 1px gray;
     color: white;
     width: fit-content;
     cursor: pointer;
@@ -91,21 +87,35 @@
     }
 }
 
-@media (min-width:360px) and (max-width:1080px){
-    .nav{
+@media (min-width:360px) and (max-width:1080px) {
+    .nav {
         width: 40%;
         height: max-content;
         padding-left: 20px;
         margin-right: 10%;
+        border-radius: 0 12px 12px 0;
+        border-top: 1px solid gray;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
     }
 
-    .welcome{
-        margin-top: -4%;
+    .nav_list{
+        display: block;
+    }
+
+    .welcome {
+        display: block;
+        margin-top: 22%;
+        border-radius: 0 8px 8px 0;
+        border-top: solid 1px gray;
+        border-right: solid 1px gray;
+        border-bottom: solid 1px gray;
+        color: white;
     }
 }
 
-@media (min-height:1024px) and (max-height:1368px){
-    .nav{
+@media (min-height:1024px) and (max-height:1368px) {
+    .nav {
         width: 20%;
         height: max-content;
         padding-left: 20px;
@@ -113,11 +123,26 @@
     }
 }
 
-@media (min-width:1920px){
-    .nav{
+@media (min-width:1920px) and (max-width:2048px) {
+    .nav {
         width: 40%;
         height: max-content;
         padding-left: 20px;
         margin-right: 10%;
+    }
+
+    .welcome {
+        left: 7%;
+    }
+}
+
+@media (min-width:3840px) {
+
+    .nav {
+        height: 3vh;
+    }
+
+    .welcome {
+        left: 13%;
     }
 }
