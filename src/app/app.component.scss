@@ -1,5 +1,16 @@
 body {
   display: flex;
+  flex-direction: column;
+
+  .languaje {
+    position: fixed;
+    width: 200px;
+    height: 80px;
+    right: 15px;
+    top: 0;
+    border: 1px solid gray;
+    border-radius: 0 0 12px 12px;
+  }
   
   .side-bar {
     background-color: black;
@@ -25,6 +36,11 @@ body {
     .side-bar {
       width: 100%;
     }
-  }
 
+    .languaje{
+      position: static;
+      border: none;
+      margin-left: 27%;
+    }
+  }
 }

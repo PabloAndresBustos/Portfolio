@@ -1,0 +1,60 @@
+.languaje {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    gap: 15px;
+
+    .languaje-toggle {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .toggle-button {
+            width: 50px;
+            height: 30px;
+            border-radius: 16px;
+            border: 1px solid gray;
+            cursor: pointer;
+            position: relative;
+            transition: 0.6s;
+        }
+
+        .toggle-button::before {
+            content: '';
+            position: absolute;
+            background-color: gray;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            margin: 1px;
+        }
+
+        input:checked+.toggle-button::before {
+            transform: translateX(20px);
+        }
+
+        input {
+            display: none;
+        }
+    }
+
+    img {
+        width: 48px;
+    }
+}
+
+@media (min-width:360px) and (max-width:1080px) {
+    .languaje {
+
+        img {
+            width: 32px;
+        }
+    }
+
+}

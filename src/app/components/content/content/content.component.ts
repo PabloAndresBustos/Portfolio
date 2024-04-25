@@ -6,7 +6,8 @@ import {
   ViewChild, 
   AfterViewInit,
   inject,
-  OnInit
+  OnInit,
+  NgModule
 } from '@angular/core';
 
 import { MatIconModule } from '@angular/material/icon'
@@ -15,6 +16,7 @@ import { PopUpComponent } from '../pop-up/pop-up.component';
 import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ViewsService } from 'app/services/views.service';
+import { TitleStrategy } from '@angular/router';
 
 @Component({
   selector: 'app-content',
@@ -33,10 +35,10 @@ export class ContentComponent implements AfterViewInit, OnInit {
 
   viewsServices = inject(ViewsService)
 
-  changeLanguje(){
+/*   changeLanguje(){
     this.viewsServices.languajeSelect.update( value => value = !value);
     this.viewsServices.lenguaje()
-  }
+  } */
 
   popUpShow = model<boolean>(false);
 

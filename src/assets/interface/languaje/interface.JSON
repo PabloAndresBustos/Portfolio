@@ -9,6 +9,18 @@
                 "parrafoUno": "Me distingo por mi amabilidad y habilidades para el trabajo en equipo, siempre priorizando el bienestar del grupo. Mi trayectoria de 17 años en el soporte técnico a usuarios de aplicaciones, junto con mis 2 años de experiencia en el desarrollo de aplicaciones web, me han convertido en un profesional versátil y autodidacta. No temo enfrentarme a situaciones de alta presión, pues confío en mi capacidad para resolver problemas de manera eficiente.",
                 "parrafoDos": "Mi enfoque analítico me permite abordar nuevos desafíos con determinación, disfrutando del proceso de análisis que precede a la toma de decisiones fundamentales. Soy conocido por mi cordialidad y respeto hacia mis compañeros y clientes, lo que fomenta un ambiente de colaboración y confianza en cualquier entorno de trabajo. Estoy siempre listo para superar obstáculos y alcanzar metas, aportando mi inteligencia y experiencia para el beneficio del equipo y la organización en su conjunto"
             },
+            "popUp": {
+              "titulo": "¿Que buscas?",
+              "habilidades": "- ● Analitico ● Capacidad resolutiva ● Proactivo ● Trabajo en equipo ● Autodidacta -",
+              "parrafoUno": "Si estás buscando a alguien con un enfoque analítico, una gran capacidad resolutiva y una actitud proactiva, ¡has llegado al lugar correcto! Estoy aquí para ofrecerte estas habilidades y más.",
+              "parrafoDos": "Soy un individuo altamente analítico, capaz de descomponer problemas complejos en partes manejables y encontrar soluciones efectivas. Mi enfoque meticuloso y mi habilidad para analizar datos me permiten identificar patrones y tendencias que pueden ayudar a informar decisiones importantes.",
+              "parrafoTres": "Además, mi capacidad resolutiva es una de mis mayores fortalezas.",
+              "parrafoCuatro": "No me asusto ante los desafíos; de hecho, los veo como oportunidades para crecer y aprender. Soy persistente en la búsqueda de soluciones y estoy comprometido a encontrar la mejor manera de abordar cualquier obstáculo que se presente en mi camino.",
+              "parrafoCinco": "Mi naturaleza proactiva significa que no espero a que las cosas sucedan, ¡las hago suceder! Siempre estoy buscando formas de mejorar los procesos y resultados, y estoy dispuesto a asumir la responsabilidad y liderar iniciativas que impulsen el éxito.",
+              "parrafoSeis": "Además, soy un gran jugador de equipo. Disfruto colaborando con colegas y valoro la diversidad de ideas y perspectivas que cada miembro del equipo aporta. Creo en el poder del trabajo en equipo y estoy comprometido a contribuir al éxito colectivo.",
+              "parrafoSiete": "Por último, pero no menos importante, soy autodidacta. Siempre estoy buscando oportunidades para aprender y crecer, ya sea a través de la formación formal o la exploración independiente. Creo en la importancia de mantenerme al día con las últimas tendencias y avances en mi campo para seguir siendo relevante y efectivo en mi trabajo.",
+              "parrafoOcho": "En resumen, si estás buscando a alguien que sea analítico, resolutivo, proactivo, trabajador en equipo y autodidacta, ¡no busques más! Estoy listo para asumir nuevos desafíos y llevar tus proyectos al siguiente nivel."  
+            },
             "sideBar": {
                 "inicio": "Inicio",
                 "experiencia": "Experiencia",
@@ -151,6 +163,18 @@
                 "parrafoUno": "I am distinguished by my kindness and teamwork skills, always prioritizing the well-being of the group. My 17-year career in user support for applications, along with my 2 years of experience in web application development, have made me a versatile and self-taught professional. I do not fear facing high-pressure situations, as I trust in my ability to solve problems efficiently.",
                 "parrafoDos": "My analytical approach allows me to tackle new challenges with determination, enjoying the process of analysis that precedes key decision-making. I am known for my friendliness and respect towards my colleagues and clients, fostering an atmosphere of collaboration and trust in any work environment. I am always ready to overcome obstacles and achieve goals, contributing my intelligence and experience for the benefit of the team and the organization as a whole"
             },
+            "popUp": {
+              "titulo": "What are you looking for?",
+              "habilidades": " - ● Analytical ● Problem-solving skills ● Proactive ● Teamwork ● Self-taught - ",
+              "parrafoUno": "If you're looking for someone with an analytical approach, great problem-solving skills, and a proactive attitude, you've come to the right place! I'm here to offer you these skills and more.",
+              "parrafoDos": "I'm a highly analytical individual, capable of breaking down complex problems into manageable parts and finding effective solutions. My meticulous approach and my ability to analyze data allow me to identify patterns and trends that can help inform important decisions.",
+              "parrafoTres": "Additionally, my problem-solving ability is one of my greatest strengths.",
+              "parrafoCuatro": "I don't shy away from challenges; in fact, I see them as opportunities to grow and learn. I am persistent in seeking solutions and committed to finding the best way to address any obstacle that comes my way.",
+              "parrafoCinco": "My proactive nature means I don't wait for things to happen—I make them happen! I'm always looking for ways to improve processes and outcomes, and I'm willing to take ownership and lead initiatives that drive success.",
+              "parrafoSeis": "Furthermore, I'm a great team player. I enjoy collaborating with colleagues and value the diversity of ideas and perspectives that each team member brings. I believe in the power of teamwork and am committed to contributing to collective success.",
+              "parrafoSiete": "Lastly, but certainly not least, I'm self-taught. I'm always seeking opportunities to learn and grow, whether through formal training or independent exploration. I believe in the importance of staying up-to-date with the latest trends and advancements in my field to remain relevant and effective in my work.",
+              "parrafoOcho": "In summary, if you're looking for someone who is analytical, resourceful, proactive, a team player, and self-taught, look no further! I'm ready to take on new challenges and take your projects to the next level." 
+            },
             "sideBar": {
                 "inicio": "Home",
                 "experiencia": "Experience",
@@ -205,7 +229,7 @@
                     "lugar": "Codo a Codo",
                     "logo": "https://inscripcionesagencia.bue.edu.ar/codoacodo/img/graficos/logoCACsinbloque.png",
                     "ingreso": "10/03/2024",
-                    "estado": "ACurrently",
+                    "estado": "Currently",
                     "tareasRealizadas": "BackEnd Development with Python ● FrontEnd Development with HTML, CSS ● Bootstrap ● JavaScript",
                     "logros": "- In progress - Currently, I am taking a course, so we do not yet have the course achievements.",
                     "certificado": ""

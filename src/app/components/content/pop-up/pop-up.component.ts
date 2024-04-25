@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
+import { ViewsService } from 'app/services/views.service';
 
 @Component({
   selector: 'app-pop-up',
@@ -8,6 +9,11 @@ import { MatIconModule } from '@angular/material/icon';
   templateUrl: './pop-up.component.html',
   styleUrl: './pop-up.component.scss'
 })
-export class PopUpComponent {
+export class PopUpComponent implements OnInit{
 
+  viewsService = inject(ViewsService)
+
+  ngOnInit(): void {
+    this.viewsService.lenguaje()
+  }
 }

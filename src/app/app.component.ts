@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { ContentComponent } from './components/content/content/content.component';
 import { ViewsService } from './services/views.service';
+import { LanguajeComponent } from './components/languaje/languaje.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SideBarComponent, ContentComponent],
+  imports: [RouterOutlet, SideBarComponent, ContentComponent, LanguajeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
