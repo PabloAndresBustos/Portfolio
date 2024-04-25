@@ -25,6 +25,7 @@ export class CardsDetailsComponent implements OnInit {
   @Input() certificado:string = "";
   @Input() dates:boolean = true;
   @Input() download:string = "";
+  @Input() buttonName:string = "";
 
   ngOnInit(): void {
     this.viewsServices.lenguaje()

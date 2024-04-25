@@ -30,7 +30,7 @@ body {
   }
 }
 
-@media (min-width:360px) and (max-width:1080px) {
+@media (min-width:360px) and (max-width:1368px) {
 
   body{
     .side-bar {
@@ -39,8 +39,12 @@ body {
 
     .languaje{
       position: static;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
       border: none;
-      margin-left: 27%;
+      
     }
   }
 }

@@ -12,9 +12,15 @@
 
     <div class="content-details">
         @for (studie of viewsServices.interface.estudios; track studie.id) {
-        <app-cards-details [logo]="studie.logo" [startDate]="studie.ingreso" [endDate]="studie.estado"
-            [tareasRealizadas]="studie.tareasRealizadas" [logorsConseguidos]="studie.logros" [certificate]="true"
-            [certificado]="studie.certificado" />
+        <app-cards-details 
+            [logo]="studie.logo" 
+            [startDate]="studie.ingreso" 
+            [endDate]="studie.estado"
+            [tareasRealizadas]="studie.tareasRealizadas" 
+            [logorsConseguidos]="studie.logros" 
+            [certificate]="true"
+            [certificado]="studie.certificado" 
+            [buttonName]="viewsServices.interface.tarjetas.certificado"/>
         }
     </div>
 </div>
