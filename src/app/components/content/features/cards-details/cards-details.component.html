@@ -2,13 +2,13 @@
     <section class="top-card">
         <img src={{logo}}>
         @if (dates) {
-            <h3>Fecha de ingreso: {{ startDate }} ● Fecha de egreso: {{ endDate }}</h3>
+            <h3>{{ viewsServices.interface.tarjetas.inicio }}: {{ startDate }} ● {{ viewsServices.interface.tarjetas.final }}: {{ endDate }}</h3>
         }
     </section>
     <section class="card-content">
         <div class="card-task">
             @if(title){
-                <h3>Tareas</h3>
+                <h3>{{ viewsServices.interface.tarjetas.tareas }}</h3>
             }@else {
                 <h3>{{ titleText }}</h3>
             }
@@ -18,15 +18,15 @@
             expand_more
         </mat-icon>
         <div class="card-achievements">
-            <h3>Logros</h3>
+            <h3>{{ viewsServices.interface.tarjetas.logros }}</h3>
             <p>{{ logorsConseguidos }}</p>
         </div>
         @if(certificate && certificado !== ""){
-            <a href="{{certificado}}" target="_blank" class="certificate">{{ buttonName }}</a>
+            <a href="{{certificado}}" target="_blank" class="certificate">{{ viewsServices.interface.tarjetas.certificado }}</a>
         }
         @if(download !== ""){
-            <h4 class="download">Descarga archivos para probar la APP</h4>
-            <a href="{{download}}" target="_blank" type="button" class="download-button">Descarga</a>
+            <h4 class="download">{{ viewsServices.interface.tarjetas.descargaTitulo }}</h4>
+            <a href="{{download}}" target="_blank" type="button" class="download-button"> {{ viewsServices.interface.tarjetas.descarga }} </a>
         }
     </section>
 </section>

@@ -2,6 +2,7 @@ import { Component, OnInit, inject } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { CardsDetailsComponent } from '../cards-details/cards-details.component';
 import { HttpClient } from '@angular/common/http';
+import { ViewsService } from 'app/services/views.service';
 
 @Component({
   selector: 'app-proyects',
@@ -12,20 +13,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProyectsComponent implements OnInit{
 
-
-  proyectList:any;
-
-  nameButton:string = "Repositorio"
-
-  http = inject(HttpClient) 
-
-  getProyectos(){
-    this.http.get<any>('/assets/interface/proyects/proyects.JSON')
-    .subscribe(data => {this.proyectList = data});
-  }
+  viewsServices = inject(ViewsService)
 
   ngOnInit(): void {
-    this.getProyectos();
+    this.viewsServices.lenguaje()
   }
 
 }

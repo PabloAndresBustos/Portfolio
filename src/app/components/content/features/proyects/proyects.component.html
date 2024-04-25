@@ -3,7 +3,7 @@
         <mat-icon>
             arrow_back
         </mat-icon>
-             Proyectos
+        {{ viewsServices.interface.sideBar.proyectos }}
         <mat-icon>
             arrow_forward
         </mat-icon>
@@ -11,7 +11,7 @@
 
     
     <div class="content-details">
-        @for (proyect of proyectList; track proyect.id) {
+        @for (proyect of viewsServices.interface.proyectos; track proyect.id) {
             <app-cards-details 
             [title]="false"
             [titleText]="proyect.name"
@@ -21,7 +21,6 @@
             [dates]="false" 
             [certificate]="true"
             [certificado]="proyect.repository"
-            [buttonName]="nameButton"
             [download]="proyect.download"
             />
         }

@@ -15,6 +15,16 @@
                 "estudios": "Estudios",
                 "proyectos": "Proyectos"
             },
+            "tarjetas": {
+                "inicio": "Fecha de inicio",
+                "final": "Fecha de egreso",
+                "tareas": "Tareas",
+                "logros": "Logros",
+                "descargaTitulo": "Descarga archivos para probar la APP",
+                "descarga": "Descarga",
+                "repositorio": "repositorio",
+                "certifiado": "certifiado"
+            },
             "experiencia": [
                 {
                     "id": 1,
@@ -46,6 +56,90 @@
                     "tareasRealizadas": "Comencé mi trayectoria profesional brindando soporte técnico a usuarios de servicios de telecomunicaciones en Movistar, donde me encargaba de resolver incidencias relacionadas con internet residencial y líneas telefónicas fijas. Posteriormente, asumí responsabilidades en el ámbito corporativo al ofrecer soporte en Claro, donde mi labor consistía en configurar y mantener la conectividad de switches de fibra óptica, realizar verificaciones de mediatrix y atender solicitudes de cambio de cintas en el data center. Durante esta etapa, gestioné eficientemente todos los incidentes y solicitudes a través del sistema SAP, garantizando un seguimiento meticuloso y una resolución oportuna para cada caso. Más adelante, mi experiencia se amplió al proporcionar soporte técnico para la aplicación Naranja X, donde me encargaba de identificar y diagnosticar errores, para luego canalizarlos al equipo de BackOffice de Naranja y asegurar su pronta resolución.",
                     "logros": "Durante mi tiempo en esta empresa, he cultivado habilidades clave que han fortalecido mi desempeño profesional. Mi capacidad para trabajar en equipo se ha desarrollado ampliamente, permitiéndome colaborar eficazmente con colegas para alcanzar objetivos comunes. La empatía hacia el cliente ha sido una prioridad en mi trabajo, lo que me ha permitido comprender sus necesidades y proporcionar soluciones personalizadas con un alto nivel de satisfacción. Además, me destaco por realizar un análisis exhaustivo de los problemas presentados, evaluando cuidadosamente todas las posibles soluciones antes de tomar medidas. Siempre busco resolver los inconvenientes en el primer contacto, minimizando la necesidad de derivarlos a áreas alternativas y optimizando así los tiempos de respuesta y la experiencia del cliente. Adicionalmente, he asumido con frecuencia el rol de mentor para nuevos integrantes del equipo, compartiendo mis conocimientos y experiencias para facilitar su integración y acelerar su curva de aprendizaje. También he sido un recurso de apoyo interno para mis compañeros, brindando orientación y asistencia en momentos de duda o dificultad."
                 }
+            ],
+            "estudios": [
+                {
+                    "id": 1,
+                    "lugar": "Codo a Codo",
+                    "logo": "https://inscripcionesagencia.bue.edu.ar/codoacodo/img/graficos/logoCACsinbloque.png",
+                    "ingreso": "10/03/2024",
+                    "estado": "Actualidad",
+                    "tareasRealizadas": "Desarrollo BackEnd con Python ● Desarrollo FrontEnd con HTML, CSS ● Bootstrap ● JavaScript",
+                    "logros": "- EN DESARROLLO - Actualmente estoy cursando, por lo que aun no contamos con los logros del curso",
+                    "certificado": ""
+                },
+                {
+                    "id": 2,
+                    "lugar": "Technology with Propouse - Santex",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "ingreso": "14/03/2023",
+                    "estado": "23/10/2023",
+                    "tareasRealizadas": "Desarrollo FrontEnd con Angular ● Desarrollo BackEnd con Node.js ● SCRUM ● Docker ● Base de datos SQL con MySQL ● Linux ● Google API's",
+                    "logros": "Participamos en el desarrollo de una APP WEB para la creacion de Curriculums de la Municipalidad de Catamarca",
+                    "certificado": "https://drive.google.com/file/d/1ARHYdvL2BOAGxU9yuNU8mUD8Sk7eWW49/view?usp=sharing"
+                },
+                {
+                    "id": 3,
+                    "lugar": "Alura",
+                    "logo": "https://www.aluracursos.com/assets/img/home/alura-logo.1712144089.svg",
+                    "ingreso": "07/04/2022",
+                    "estado": "19/01/2023",
+                    "tareasRealizadas": "Desarrollo FrontEnd con JavaScript, HTML, CSS ● Formacion Oracle Cloud Infrastucture ● Formacion SQL con MySQL",
+                    "logros": "Me encuentro Certificado por Oracle en el desarrollo WEB y en el modelo OSI de Oracle Cloud Infrastucture",
+                    "certificado": "https://app.aluracursos.com/user/pabloandresbustos/fullCertificate/a36410a70ade907b00da8ba382d5ce49"
+                }
+            ],
+            "proyectos": [
+                {
+                    "id": 1,
+                    "lugar": "Alura",
+                    "logo": "https://www.emser.net/static/images/emser.jpg",
+                    "name": "Arcor Sustitutos",
+                    "tareasRealizadas": "Este proyecto se llama - Arcor Sustitutos - No era posible realizar la carga de pedidos, por el cambio de ciertos codigos.",
+                    "logros": "Esto complicaba el soporte, por lo que diseñe una APP para realizar los cambios de los codigos de manera automatica en los excel, Esta Aplicaion esta realizada con Node.js, XLSX-Populate, EJS, FS y Multer, como principales herramientas.",
+                    "repository": "https://arcorsustitutos.up.railway.app/",
+                    "download": "https://drive.google.com/drive/folders/15gzyXLhds0mTmPP9W5C1Ci6j5RVaaoHr?usp=sharing"
+                },
+                {
+                    "id": 2,
+                    "lugar": "Technology with porpuse",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "name": "CV-ASSITANT",
+                    "tareasRealizadas": "Trabajo final, para la fundacion que solicita crear una pagina para la creacion de Curriculums vitae para la municipalidad de Catamarca",
+                    "logros": "Se realiza el trabajo practo con Angular 14, Angular Material, Node.js. Google API, Envio de correo para recuperacion de cuenta, Base de datos en MySQL y varias herramientas mas",
+                    "repository": "https://github.com/PabloAndresBustos/curriculums",
+                    "download": ""
+                },
+                {
+                    "id": 3,
+                    "lugar": "Technology with porpuse",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "name": "Technology with porpuse - Copy",
+                    "tareasRealizadas": "El proyecto es la copia de la Landing Page de Technology with porpuse, este proyecto se solicito en el cursado Full Stack de la fundacion",
+                    "logros": "Se logra realizar una copia correcta utilizando solo CSS y HTML. A pedidio del mentor no se debia utilziar JavaScript",
+                    "repository": "https://technologywithpurpose.vercel.app/",
+                    "download": ""
+                },
+                {
+                    "id": 4,
+                    "lugar": "Technology with porpuse",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "name": "Carrito de Supermercado",
+                    "tareasRealizadas": "Se Debe realizar con JavaScript el carrito de compras de un supermercado, Se lleva a delante el proyecto con las herramientas requeridas",
+                    "logros": "Se realiza simulacion de carrito de supermercado, solo con JavaScript las consignas son: ● Una clase Producto que representa un producto que vende el super ● Una clase Carrito que representa el carrito de compras de un cliente ● Una clase ProductoEnCarrito que representa un producto que se agrego al carrito ● Una función findProductBySku que simula una base de datos y busca un producto por su SKU",
+                    "repository": "https://github.com/PabloAndresBustos/TPintegrador",
+                    "download": ""
+                },
+                {
+                    "id": 5,
+                    "lugar": "Technology with porpuse",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "name": "Libreria",
+                    "tareasRealizadas": "Se requiere una API REST que permita manejar librerías y los libros asociados a cada una de las librerías. Utilizar Node.Js Express, Sequelize y Passport como la infraestructura para crear el servicio.",
+                    "logros": "Se crea API permitiendo la creacion de libros, compra, venta, manejo de stock y eliminacion logica en la base de datos",
+                    "repository": "https://github.com/PabloAndresBustos/Librerias",
+                    "download": ""
+                }
             ]
         },
         "ingles": {
@@ -62,6 +156,16 @@
                 "experiencia": "Experience",
                 "estudios": "Studies",
                 "proyectos": "Proyects"
+            },
+            "tarjetas": {
+                "inicio": "Start date",
+                "final": "End Date",
+                "tareas": "Task",
+                "logros": "Achievements",
+                "descargaTitulo": "Download Files to Test the APP",
+                "descarga": "Download",
+                "repositorio": "Repository",
+                "certificado": "Certificate"
             },
             "experiencia": [
                 {
@@ -81,8 +185,8 @@
                     "puesto": "Desarrollo Full Stack",
                     "ingreso": "22/09/2007",
                     "egreso": "Currently",
-                    "tareasRealizadas": "Inicié mi carrera en el desarrollo tecnológico centrándome en la creación de aplicaciones y páginas web a nivel individual. He trabajado en el desarrollo frontend utilizando tanto JavaScript puro (Vanilla JS) como Angular, complementando estas habilidades con experiencia en el backend a través de Node.js. Además, poseo conocimientos sólidos en modelado de bases de datos utilizando MySQL, lo que me permite abordar integralmente el desarrollo de soluciones web eficientes y escalables",
-                    "logros": "Como desarrollador freelance, perfeccioné significativamente mis habilidades técnicas, especialmente en el manejo de módulos avanzados de Node.js tales como Sequelize, Bcrypt, XLSX-Populate, Google-APIs, Express, EJS, Path y Multer, entre otros. Además, amplié mi experiencia en el desarrollo frontend utilizando Angular, lo que me permitió crear interfaces de usuario más dinámicas y eficientes."
+                    "tareasRealizadas": "I began my career in technology development by focusing on creating individual-level applications and web pages. I have worked on frontend development using both pure JavaScript (Vanilla JS) and Angular, complementing these skills with backend experience through Node.js. Additionally, I have solid knowledge in database modeling using MySQL, enabling me to comprehensively address the development of efficient and scalable web solutions.",
+                    "logros": "As a freelance developer, I significantly enhanced my technical skills, particularly in handling advanced Node.js modules such as Sequelize, Bcrypt, XLSX-Populate, Google-APIs, Express, EJS, Path, and Multer, among others. Additionally, I expanded my experience in frontend development using Angular, enabling me to create more dynamic and efficient user interfaces."
                 },
                 {
                     "id": 3,
@@ -91,8 +195,92 @@
                     "puesto": "APP Help Desk",
                     "ingreso": "22/09/2007",
                     "egreso": "10/01/2023",
-                    "tareasRealizadas": "Comencé mi trayectoria profesional brindando soporte técnico a usuarios de servicios de telecomunicaciones en Movistar, donde me encargaba de resolver incidencias relacionadas con internet residencial y líneas telefónicas fijas. Posteriormente, asumí responsabilidades en el ámbito corporativo al ofrecer soporte en Claro, donde mi labor consistía en configurar y mantener la conectividad de switches de fibra óptica, realizar verificaciones de mediatrix y atender solicitudes de cambio de cintas en el data center. Durante esta etapa, gestioné eficientemente todos los incidentes y solicitudes a través del sistema SAP, garantizando un seguimiento meticuloso y una resolución oportuna para cada caso. Más adelante, mi experiencia se amplió al proporcionar soporte técnico para la aplicación Naranja X, donde me encargaba de identificar y diagnosticar errores, para luego canalizarlos al equipo de BackOffice de Naranja y asegurar su pronta resolución.",
-                    "logros": "Durante mi tiempo en esta empresa, he cultivado habilidades clave que han fortalecido mi desempeño profesional. Mi capacidad para trabajar en equipo se ha desarrollado ampliamente, permitiéndome colaborar eficazmente con colegas para alcanzar objetivos comunes. La empatía hacia el cliente ha sido una prioridad en mi trabajo, lo que me ha permitido comprender sus necesidades y proporcionar soluciones personalizadas con un alto nivel de satisfacción. Además, me destaco por realizar un análisis exhaustivo de los problemas presentados, evaluando cuidadosamente todas las posibles soluciones antes de tomar medidas. Siempre busco resolver los inconvenientes en el primer contacto, minimizando la necesidad de derivarlos a áreas alternativas y optimizando así los tiempos de respuesta y la experiencia del cliente. Adicionalmente, he asumido con frecuencia el rol de mentor para nuevos integrantes del equipo, compartiendo mis conocimientos y experiencias para facilitar su integración y acelerar su curva de aprendizaje. También he sido un recurso de apoyo interno para mis compañeros, brindando orientación y asistencia en momentos de duda o dificultad."
+                    "tareasRealizadas": "I began my professional journey by providing technical support to users of telecommunication services at Movistar, where I was responsible for resolving issues related to residential internet and landline phone lines. Later, I took on corporate responsibilities at Claro, where I provided support in configuring and maintaining the connectivity of fiber optic switches, performing mediatrix verifications, and handling requests for tape changes in the data center. During this time, I efficiently managed all incidents and requests through the SAP system, ensuring meticulous follow-up and timely resolution for each case. Later on, my experience expanded to providing technical support for the Naranja X application, where I identified and diagnosed errors before channeling them to the Naranja BackOffice team for prompt resolution.",
+                    "logros": "During my time at this company, I have cultivated key skills that have strengthened my professional performance. My ability to work in teams has greatly developed, enabling me to collaborate effectively with colleagues to achieve common goals. Empathy towards the customer has been a priority in my work, allowing me to understand their needs and provide customized solutions with a high level of satisfaction. Additionally, I excel in conducting thorough analyses of presented problems, carefully evaluating all possible solutions before taking action. I always strive to resolve issues at the first point of contact, minimizing the need to escalate them to alternative areas and thus optimizing response times and the customer experience. Moreover, I have frequently taken on the role of a mentor for new team members, sharing my knowledge and experiences to facilitate their integration and accelerate their learning curve. I have also been an internal support resource for my colleagues, providing guidance and assistance during moments of doubt or difficulty."
+                }
+            ],
+            "estudios": [
+                {
+                    "id": 1,
+                    "lugar": "Codo a Codo",
+                    "logo": "https://inscripcionesagencia.bue.edu.ar/codoacodo/img/graficos/logoCACsinbloque.png",
+                    "ingreso": "10/03/2024",
+                    "estado": "ACurrently",
+                    "tareasRealizadas": "BackEnd Development with Python ● FrontEnd Development with HTML, CSS ● Bootstrap ● JavaScript",
+                    "logros": "- In progress - Currently, I am taking a course, so we do not yet have the course achievements.",
+                    "certificado": ""
+                },
+                {
+                    "id": 2,
+                    "lugar": "Technology with Propouse - Santex",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "ingreso": "14/03/2023",
+                    "estado": "23/10/2023",
+                    "tareasRealizadas": "Frontend Development with Angular ● Backend Development with Node.js ● SCRUM ● Docker ● SQL Database with MySQL ● Linux ● Google APIs",
+                    "logros": "We participated in the development of a WEB APP for creating resumes for the Municipality of Catamarca.",
+                    "certificado": "https://drive.google.com/file/d/1ARHYdvL2BOAGxU9yuNU8mUD8Sk7eWW49/view?usp=sharing"
+                },
+                {
+                    "id": 3,
+                    "lugar": "Alura",
+                    "logo": "https://www.aluracursos.com/assets/img/home/alura-logo.1712144089.svg",
+                    "ingreso": "07/04/2022",
+                    "estado": "19/01/2023",
+                    "tareasRealizadas": "FrontEnd development with JavaScript, HTML, CSS ● Oracle Cloud Infrastructure training ● MySQL SQL training",
+                    "logros": "I am certified by Oracle in WEB development and in the OSI model of Oracle Cloud Infrastructure.",
+                    "certificado": "https://app.aluracursos.com/user/pabloandresbustos/fullCertificate/a36410a70ade907b00da8ba382d5ce49"
+                }
+            ],
+            "proyectos": [
+                {
+                    "id": 1,
+                    "lugar": "Alura",
+                    "logo": "https://www.emser.net/static/images/emser.jpg",
+                    "name": "Arcor Sustitutos",
+                    "tareasRealizadas": "This project is called - Arcor Substitutes - It was not possible to process orders due to changes in certain codes.",
+                    "logros": "This complicated support, so I designed an app to automatically make code changes in the Excel files. This application is built with Node.js, XLSX-Populate, EJS, FS, and Multer as the main tools.",
+                    "repository": "https://arcorsustitutos.up.railway.app/",
+                    "download": "https://drive.google.com/drive/folders/15gzyXLhds0mTmPP9W5C1Ci6j5RVaaoHr?usp=sharing"
+                },
+                {
+                    "id": 2,
+                    "lugar": "Technology with porpuse",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "name": "CV-ASSITANT",
+                    "tareasRealizadas": "Final project for the foundation requesting the creation of a website for generating resumes for the Municipality of Catamarca.",
+                    "logros": "The project is carried out using Angular 14, Angular Material, Node.js, Google API, email sending for account recovery, MySQL database, and several other tools.",
+                    "repository": "https://github.com/PabloAndresBustos/curriculums",
+                    "download": ""
+                },
+                {
+                    "id": 3,
+                    "lugar": "Technology with porpuse",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "name": "Technology with porpuse - Copia",
+                    "tareasRealizadas": "The project is a replica of the Technology with Purpose Landing Page. It was requested during the Full Stack course offered by the foundation.",
+                    "logros": "A correct replica was achieved using only CSS and HTML. At the mentor's request, JavaScript was not used.",
+                    "repository": "https://technologywithpurpose.vercel.app/",
+                    "download": ""
+                },
+                {
+                    "id": 4,
+                    "lugar": "Technology with porpuse",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "name": "Supermarket",
+                    "tareasRealizadas": "The shopping cart for a supermarket must be implemented using JavaScript. The project will be carried out with the required tools.",
+                    "logros": "The simulation of a supermarket shopping cart is implemented solely with JavaScript. The guidelines are as follows: ● A Product class representing a product sold by the supermarket. ● A Cart class representing the customer's shopping cart. ● A CartProduct class representing a product added to the cart. ● A findProductBySku function simulating a database lookup and finding a product by its SKU.",
+                    "repository": "https://github.com/PabloAndresBustos/TPintegrador",
+                    "download": ""
+                },
+                {
+                    "id": 5,
+                    "lugar": "Technology with porpuse",
+                    "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
+                    "name": "Bookstore",
+                    "tareasRealizadas": "A REST API is required to manage libraries and the books associated with each library. Node.js Express, Sequelize, and Passport will be used as the infrastructure to create the service.",
+                    "logros": "An API is created allowing the creation of books, purchases, sales, stock management, and logical deletion in the database.",
+                    "repository": "https://github.com/PabloAndresBustos/Librerias",
+                    "download": ""
                 }
             ]
         }

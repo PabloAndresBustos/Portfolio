@@ -1,6 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit, inject } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { RouterLink } from '@angular/router';
+import { ViewsService } from 'app/services/views.service';
 
 @Component({
   selector: 'app-cards-details',
@@ -9,7 +10,9 @@ import { RouterLink } from '@angular/router';
   templateUrl: './cards-details.component.html',
   styleUrl: './cards-details.component.scss'
 })
-export class CardsDetailsComponent {
+export class CardsDetailsComponent implements OnInit {
+
+  viewsServices = inject(ViewsService)
 
   @Input() logo:string = '';
   @Input() title:boolean = true;
@@ -20,7 +23,10 @@ export class CardsDetailsComponent {
   @Input() endDate:string = '';
   @Input() certificate:boolean = false;
   @Input() certificado:string = "";
-  @Input() buttonName:string = "";
   @Input() dates:boolean = true;
   @Input() download:string = "";
+
+  ngOnInit(): void {
+    this.viewsServices.lenguaje()
+  }
 }

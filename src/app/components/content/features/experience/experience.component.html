@@ -3,7 +3,7 @@
         <mat-icon>
             arrow_back
         </mat-icon>
-             Experiencia
+             {{ viewsServices.interface.sideBar.experiencia }}
         <mat-icon>
             arrow_forward
         </mat-icon>
@@ -11,7 +11,7 @@
 
     
     <div class="content-details">
-        @for (work of experienceList; track work.id) {
+        @for (work of viewsServices.interface.experiencia; track work.id) {
          <app-cards-details 
          [logo]='work.logo' 
          [tareasRealizadas]='work.tareasRealizadas'   

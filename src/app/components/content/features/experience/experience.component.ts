@@ -3,6 +3,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
 import { MatIconModule } from '@angular/material/icon';
 import { CardsDetailsComponent } from '../cards-details/cards-details.component';
+import { ViewsService } from 'app/services/views.service';
 
 
 @Component({
@@ -19,20 +20,9 @@ import { CardsDetailsComponent } from '../cards-details/cards-details.component'
 })
 export class ExperienceComponent implements OnInit{
 
-  experienceList:any;
-
-  http = inject(HttpClient)
-
-  languaje:boolean = true
-
-  getExperience():void {
-    this.http.get<any>('/assets/interface/experience/experience.JSON')
-    .subscribe(data => {
-                        this.experienceList = data;
-                      })
-  }
+  viewsServices = inject(ViewsService)
 
   ngOnInit(): void {
-   this.getExperience();
+   this.viewsServices.lenguaje()
   }
 }
