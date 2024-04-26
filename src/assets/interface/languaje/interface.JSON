@@ -110,6 +110,7 @@
                     "tareasRealizadas": "Este proyecto se llama - Arcor Sustitutos - No era posible realizar la carga de pedidos, por el cambio de ciertos codigos.",
                     "logros": "Esto complicaba el soporte, por lo que diseñe una APP para realizar los cambios de los codigos de manera automatica en los excel, Esta Aplicaion esta realizada con Node.js, XLSX-Populate, EJS, FS y Multer, como principales herramientas.",
                     "repository": "https://arcorsustitutos.up.railway.app/",
+                    "pictures": "/assets/images/arcorSustitutos.png",
                     "download": "https://drive.google.com/drive/folders/15gzyXLhds0mTmPP9W5C1Ci6j5RVaaoHr?usp=sharing"
                 },
                 {
@@ -120,6 +121,7 @@
                     "tareasRealizadas": "Trabajo final, para la fundacion que solicita crear una pagina para la creacion de Curriculums vitae para la municipalidad de Catamarca",
                     "logros": "Se realiza el trabajo practo con Angular 14, Angular Material, Node.js. Google API, Envio de correo para recuperacion de cuenta, Base de datos en MySQL y varias herramientas mas",
                     "repository": "https://github.com/PabloAndresBustos/curriculums",
+                    "pictures": "",
                     "download": ""
                 },
                 {
@@ -130,6 +132,7 @@
                     "tareasRealizadas": "El proyecto es la copia de la Landing Page de Technology with porpuse, este proyecto se solicito en el cursado Full Stack de la fundacion",
                     "logros": "Se logra realizar una copia correcta utilizando solo CSS y HTML. A pedidio del mentor no se debia utilziar JavaScript",
                     "repository": "https://technologywithpurpose.vercel.app/",
+                    "pictures": "",
                     "download": ""
                 },
                 {
@@ -140,6 +143,7 @@
                     "tareasRealizadas": "Se Debe realizar con JavaScript el carrito de compras de un supermercado, Se lleva a delante el proyecto con las herramientas requeridas",
                     "logros": "Se realiza simulacion de carrito de supermercado, solo con JavaScript las consignas son: ● Una clase Producto que representa un producto que vende el super ● Una clase Carrito que representa el carrito de compras de un cliente ● Una clase ProductoEnCarrito que representa un producto que se agrego al carrito ● Una función findProductBySku que simula una base de datos y busca un producto por su SKU",
                     "repository": "https://github.com/PabloAndresBustos/TPintegrador",
+                    "pictures": "",
                     "download": ""
                 },
                 {
@@ -150,6 +154,7 @@
                     "tareasRealizadas": "Se requiere una API REST que permita manejar librerías y los libros asociados a cada una de las librerías. Utilizar Node.Js Express, Sequelize y Passport como la infraestructura para crear el servicio.",
                     "logros": "Se crea API permitiendo la creacion de libros, compra, venta, manejo de stock y eliminacion logica en la base de datos",
                     "repository": "https://github.com/PabloAndresBustos/Librerias",
+                    "pictures": "",
                     "download": ""
                 }
             ]
@@ -264,6 +269,7 @@
                     "tareasRealizadas": "This project is called - Arcor Substitutes - It was not possible to process orders due to changes in certain codes.",
                     "logros": "This complicated support, so I designed an app to automatically make code changes in the Excel files. This application is built with Node.js, XLSX-Populate, EJS, FS, and Multer as the main tools.",
                     "repository": "https://arcorsustitutos.up.railway.app/",
+                    "pictures": "/assets/images/arcorSustitutos.png",
                     "download": "https://drive.google.com/drive/folders/15gzyXLhds0mTmPP9W5C1Ci6j5RVaaoHr?usp=sharing"
                 },
                 {
@@ -274,6 +280,7 @@
                     "tareasRealizadas": "Final project for the foundation requesting the creation of a website for generating resumes for the Municipality of Catamarca.",
                     "logros": "The project is carried out using Angular 14, Angular Material, Node.js, Google API, email sending for account recovery, MySQL database, and several other tools.",
                     "repository": "https://github.com/PabloAndresBustos/curriculums",
+                    "pictures": "",
                     "download": ""
                 },
                 {
@@ -284,6 +291,7 @@
                     "tareasRealizadas": "The project is a replica of the Technology with Purpose Landing Page. It was requested during the Full Stack course offered by the foundation.",
                     "logros": "A correct replica was achieved using only CSS and HTML. At the mentor's request, JavaScript was not used.",
                     "repository": "https://technologywithpurpose.vercel.app/",
+                    "pictures": "",
                     "download": ""
                 },
                 {
@@ -294,6 +302,7 @@
                     "tareasRealizadas": "The shopping cart for a supermarket must be implemented using JavaScript. The project will be carried out with the required tools.",
                     "logros": "The simulation of a supermarket shopping cart is implemented solely with JavaScript. The guidelines are as follows: ● A Product class representing a product sold by the supermarket. ● A Cart class representing the customer's shopping cart. ● A CartProduct class representing a product added to the cart. ● A findProductBySku function simulating a database lookup and finding a product by its SKU.",
                     "repository": "https://github.com/PabloAndresBustos/TPintegrador",
+                    "pictures": "",
                     "download": ""
                 },
                 {
@@ -304,6 +313,7 @@
                     "tareasRealizadas": "A REST API is required to manage libraries and the books associated with each library. Node.js Express, Sequelize, and Passport will be used as the infrastructure to create the service.",
                     "logros": "An API is created allowing the creation of books, purchases, sales, stock management, and logical deletion in the database.",
                     "repository": "https://github.com/PabloAndresBustos/Librerias",
+                    "pictures": "",
                     "download": ""
                 }
             ]

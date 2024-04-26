@@ -26,6 +26,8 @@ export class CardsDetailsComponent implements OnInit {
   @Input() dates:boolean = true;
   @Input() download:string = "";
   @Input() buttonName:string = "";
+  @Input() pictures:boolean = true;
+  @Input() picturesLink:string = "";
 
   ngOnInit(): void {
     this.viewsServices.lenguaje()

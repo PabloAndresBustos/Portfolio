@@ -5,6 +5,13 @@
             <h3>{{ viewsServices.interface.tarjetas.inicio }}: {{ startDate }} ● {{ viewsServices.interface.tarjetas.final }}: {{ endDate }}</h3>
         }
     </section>
+    @if(pictures && picturesLink !==  ""){
+        <section class="images">
+            <figure>
+                <img src="{{ picturesLink }}">
+            </figure>
+        </section>
+    }
     <section class="card-content">
         <div class="card-task">
             @if(title){

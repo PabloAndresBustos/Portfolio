@@ -260,8 +260,16 @@ body {
 }
 
 @media (min-width:1920px) {
-    .text {
-        margin-left: 1%;
-        margin-top: 0%;
+
+    body{
+        .text {
+            margin-left: 1%;
+            margin-top: 0%;
+        }
+    
+        .pop-up{
+            height: 90vh;
+        }
+        
     }
 }
