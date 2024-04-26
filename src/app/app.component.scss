@@ -30,9 +30,19 @@ body {
   }
 }
 
-@media (min-width:360px) and (max-width:1080px) {
+@media (min-width:360px) and (max-width:430px) {
 
   body{
+
+    .languaje{
+      position: static;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      border: none;
+    }
+
     .side-bar {
       width: 100%;
       left: 0;
@@ -42,6 +52,16 @@ body {
       border-radius: 0 12px 12px 0;
     }
 
+    app-content{
+      margin-bottom: 50%;
+    }
+  }
+}
+
+@media (min-width:431px) and (max-width:1023px){
+
+  body{
+
     .languaje{
       position: static;
       display: flex;
@@ -49,11 +69,15 @@ body {
       justify-content: center;
       width: 100%;
       border: none;
-      
     }
 
-    app-content{
-      margin-bottom: 50%;
+    .side-bar {
+      width: 55%;
+      left: 0;
+      top: 5%;
+      transform: translateY(5%);
+      margin-top: 29%;
+      border-radius: 0 12px 12px 0;
     }
   }
 }
