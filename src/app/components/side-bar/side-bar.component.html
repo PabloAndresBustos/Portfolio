@@ -1,6 +1,6 @@
 <div>
     <section class="welcome" (click)="hideShowMenu()" #welcome>
-        @if (!menu) {
+        @if (!menu()) {
         <mat-icon>
             menu_open
         </mat-icon>
@@ -11,7 +11,7 @@
         }
     </section>
     @if (menu()) {
-    <nav class="nav" Expand #nav>
+    <nav class="nav" Expand>
         <ul class="nav_list">
             <li class="nav_item" (click)="showHome()" routerLink="/">
                 <figure class="nav_figure">
@@ -20,7 +20,7 @@
                     </mat-icon>
                 </figure>
                 <article class="nav_article">
-                    <p class="nav_text">{{ viewsServices.interface.sideBar.inicio }}</p>
+                    <p class="nav_text" #item>{{ viewsServices.interface.sideBar.inicio }}</p>
                 </article>
             </li>
             <li class="nav_item" (click)="hideShow()" routerLink="experience">
@@ -30,7 +30,7 @@
                     </mat-icon>
                 </figure>
                 <article class="nav_article">
-                    <p class="nav_text">{{ viewsServices.interface.sideBar.experiencia }}</p>
+                    <p class="nav_text" #item>{{ viewsServices.interface.sideBar.experiencia }}</p>
                 </article>
             </li>
             <li class="nav_item" (click)="hideShow()" routerLink="studies">
@@ -40,7 +40,7 @@
                     </mat-icon>
                 </figure>
                 <article class="nav_article">
-                    <p class="nav_text">{{ viewsServices.interface.sideBar.estudios }}</p>
+                    <p class="nav_text" #item>{{ viewsServices.interface.sideBar.estudios }}</p>
                 </article>
             </li>
             <li class="nav_item" (click)="hideShow()" routerLink="proyects">
@@ -50,7 +50,7 @@
                     </mat-icon>
                 </figure>
                 <article class="nav_article">
-                    <p class="nav_text">{{ viewsServices.interface.sideBar.proyectos }}</p>
+                    <p class="nav_text" #item>{{ viewsServices.interface.sideBar.proyectos }}</p>
                 </article>
             </li>
         </ul>

@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, OnInit, ViewChild, inject, model} from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, OnInit, QueryList, ViewChild, ViewChildren, inject, model } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon'
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { ViewsService } from 'app/services/views.service';
@@ -11,31 +11,40 @@ import { WidthExpandDirective } from '../directives/expand/width-expand.directiv
   templateUrl: './side-bar.component.html',
   styleUrl: './side-bar.component.scss'
 })
-export class SideBarComponent implements OnInit{
+export class SideBarComponent implements OnInit {
 
-  @ViewChild('nav') nav!: ElementRef;
   @ViewChild('welcome') welcome!: ElementRef;
+  @ViewChildren('item') items!: QueryList<ElementRef>;
 
-    /* Visibildada del SideBar */
-    menu = model<boolean>(true);
+  /* Visibildada del SideBar */
+  menu = model<boolean>(true);
 
   @HostListener('window:resize', ['$event'])
-  onResize(event: any){
+  onResize(event: any) {
     const width = event.target.innerWidth;
     console.log(width)
-    if(width >= 1365){
+    if (width >= 912) {
       this.menu.set(true)
     }
 
-    if(width<=1364){
+    if (width <= 1364) {
       this.menu.set(false)
     }
   }
-    
+
+  @HostListener('click', ['$event'])
+  clickItem(event: any) {
+    if(event.target === this.welcome.nativeElement ||
+      this.items.toArray().some(item => event.target === item.nativeElement)
+    ){
+      this.menu.update(value => value = !value)
+    }
+  }
+
   viewsServices = inject(ViewsService)
 
 
-  hideShowMenu(){
+  hideShowMenu() {
     this.menu.update(value => value = !value);
   }
 
