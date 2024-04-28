@@ -65,7 +65,7 @@ export class SideBarComponent implements AfterViewInit, OnInit {
   /* Muestra la landingPage */
   showHome() {
     this.viewsServices.hideShowLanding.set(true);
-    this.viewsServices.router.set(false);
+    this.viewsServices.router.set(false)
   }
 
   ngOnInit(): void {

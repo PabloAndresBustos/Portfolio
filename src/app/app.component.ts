@@ -22,7 +22,8 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
     window.addEventListener('popstate', ()=>{
-      this.showLanding.hideShowLanding.update(value =>  value = !value)
+      this.showLanding.hideShowLanding.set(true)
+      this.showLanding.router.set(false)
     })
   }
   
