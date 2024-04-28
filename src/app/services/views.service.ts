@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable, inject, model } from '@angular/core';
+import { HostListener, Injectable, inject, model } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +15,12 @@ export class ViewsService {
   languajeSelect = model<boolean>(true);
 
   interface:any;
+
+  @HostListener('window:beforeunload', ['$event'])
+  reload(){
+    this.hideShowLanding.set(false)
+    this.router.set(true)
+  }
 
   lenguaje(){
     this.http.get<any>('/assets/interface/languaje/interface.JSON')

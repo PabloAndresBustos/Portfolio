@@ -1,5 +1,5 @@
 import { Component, OnInit, inject, viewChild } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { ContentComponent } from './components/content/content/content.component';
 import { ViewsService } from './services/views.service';
@@ -15,6 +15,7 @@ import { LanguajeComponent } from './components/languaje/languaje.component';
 export class AppComponent implements OnInit{
 
   public showLanding = inject(ViewsService);
+  router = inject(Router)
 
   /* Barra lateral */
   sideBarShow:boolean = false;

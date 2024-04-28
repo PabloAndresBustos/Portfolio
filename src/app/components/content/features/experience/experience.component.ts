@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, HostListener, OnInit, inject } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
 import { MatIconModule } from '@angular/material/icon';
@@ -24,5 +24,6 @@ export class ExperienceComponent implements OnInit{
 
   ngOnInit(): void {
    this.viewsServices.lenguaje()
+   this.viewsServices.reload()
   }
 }

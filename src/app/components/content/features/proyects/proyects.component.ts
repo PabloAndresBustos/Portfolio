@@ -17,6 +17,7 @@ export class ProyectsComponent implements OnInit{
 
   ngOnInit(): void {
     this.viewsServices.lenguaje()
+    this.viewsServices.reload()
   }
 
 }

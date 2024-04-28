@@ -17,6 +17,7 @@ export class StudiesComponent implements OnInit {
 
   ngOnInit(): void {
     this.viewsServices.lenguaje()
+    this.viewsServices.reload()
   }
 
 }
