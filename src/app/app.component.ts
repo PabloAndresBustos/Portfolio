@@ -23,9 +23,7 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
     window.addEventListener('popstate', ()=>{
       this.showLanding.hideShowLanding.update(value =>  value = !value)
-      console.log('Se presiono el retroseso')
     })
   }
-
   
 }
