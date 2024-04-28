@@ -51,16 +51,21 @@ export class SideBarComponent implements AfterViewInit, OnInit {
     }
   }
 
+  /* Oculta el menu lateral */
   hideShowMenu() {
     this.menu.update(value => value = !value);
   }
 
+  /* Oculta la landingPage */
   hideShow() {
-    this.viewsServices.hideShowLanding.update((value) => value = !value);
+    this.viewsServices.hideShowLanding.set(false);
+    this.viewsServices.router.set(true);
   }
 
+  /* Muestra la landingPage */
   showHome() {
-    this.viewsServices.hideShowLanding.update((value) => value = true);
+    this.viewsServices.hideShowLanding.set(true);
+    this.viewsServices.router.set(false);
   }
 
   ngOnInit(): void {

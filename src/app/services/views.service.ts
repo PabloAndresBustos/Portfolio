@@ -7,6 +7,8 @@ import { Injectable, inject, model } from '@angular/core';
 export class ViewsService {
 
   http = inject(HttpClient)
+
+  router = model<boolean>(true);
   
   hideShowLanding = model<boolean>(true);
 
@@ -24,5 +26,4 @@ export class ViewsService {
       }
     })
   }
-
 }
