@@ -243,13 +243,19 @@ body {
 
     body {
         .pop-up {
-            top: 10%;
-            width: 90%;
+            backdrop-filter: blur(10px);
+            top: 15%;
+            width: 92%;
+            height: 200vh;
 
             .close {
-                margin-left: 20%;
+                margin-left: 16%;
             }
         }
+    }
+
+    app-about-me{
+        height: 70vh;
     }
 }
 

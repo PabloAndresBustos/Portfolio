@@ -113,10 +113,9 @@
     }
 }
 
-@media (min-width:431px) and (max-width:1023px){
-    
+@media (min-width:431px) and (max-width:500px){
     .nav {
-        width: 40%;
+        width: 56%;
         height: max-content;
         padding-left: 20px;
         margin-right: 10%;
@@ -133,7 +132,37 @@
     .welcome {
         display: block;
         position: fixed;
-        margin-top: 22%;
+        margin-top: 36%;
+        border-radius: 0 8px 8px 0;
+        border-top: solid 1px gray;
+        border-right: solid 1px gray;
+        border-bottom: solid 1px gray;
+        color: white;
+    }
+}
+
+@media (min-width:501px) and (max-width:1024px){
+    
+    .nav {
+        top: 13%;
+        width: 20%;
+        height: max-content;
+        padding-left: 20px;
+        margin-right: 10%;
+        border-radius: 0 12px 12px 0;
+        border-top: 1px solid gray;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+    .nav_list{
+        display: block;
+    }
+
+    .welcome {
+        display: block;
+        position: fixed;
+        margin-top: 26%;
         border-radius: 0 8px 8px 0;
         border-top: solid 1px gray;
         border-right: solid 1px gray;

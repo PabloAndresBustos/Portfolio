@@ -56,7 +56,7 @@ export class SideBarComponent implements AfterViewInit, OnInit {
   }
 
   hideShow() {
-    this.viewsServices.hideShowLanding.update((value) => value = false);
+    this.viewsServices.hideShowLanding.update((value) => value = !value);
   }
 
   showHome() {
