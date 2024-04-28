@@ -12,10 +12,8 @@ export const routes: Routes = [
                 .then(cs => cs.StudiesComponent)
     },
     {
-        path: 'proyects', loadComponent: () =>
+        path: 'projects', loadComponent: () =>
             import('./components/content/features/proyects/proyects.component')
                 .then(cc => cc.ProyectsComponent)
-    },
-    //{ path: '', redirectTo: '/', pathMatch: 'full' },
-    //{ path: '**', redirectTo: '/', pathMatch: 'full' },
+    }
 ];

@@ -128,11 +128,11 @@
                     "id": 3,
                     "lugar": "Technology with porpuse",
                     "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
-                    "name": "Technology with porpuse - Copy",
+                    "name": "Technology with porpuse - Copia",
                     "tareasRealizadas": "El proyecto es la copia de la Landing Page de Technology with porpuse, este proyecto se solicito en el cursado Full Stack de la fundacion",
                     "logros": "Se logra realizar una copia correcta utilizando solo CSS y HTML. A pedidio del mentor no se debia utilziar JavaScript",
                     "repository": "https://technologywithpurpose.vercel.app/",
-                    "pictures": "",
+                    "pictures": "/assets/images/xAcademy.png",
                     "download": ""
                 },
                 {
@@ -287,11 +287,11 @@
                     "id": 3,
                     "lugar": "Technology with porpuse",
                     "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
-                    "name": "Technology with porpuse - Copia",
+                    "name": "Technology with porpuse - Copy",
                     "tareasRealizadas": "The project is a replica of the Technology with Purpose Landing Page. It was requested during the Full Stack course offered by the foundation.",
                     "logros": "A correct replica was achieved using only CSS and HTML. At the mentor's request, JavaScript was not used.",
                     "repository": "https://technologywithpurpose.vercel.app/",
-                    "pictures": "",
+                    "pictures": "/assets/images/xAcademy.png",
                     "download": ""
                 },
                 {
