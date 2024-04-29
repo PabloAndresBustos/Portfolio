@@ -22,6 +22,6 @@ export class ExperienceComponent implements OnInit{
 
   ngOnInit(): void {
    this.viewsServices.lenguaje()
-   //this.viewsServices.reload()
+   this.viewsServices.resetViews()
   }
 }

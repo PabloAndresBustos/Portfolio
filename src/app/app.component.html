@@ -1,10 +1,10 @@
 <body>
   <app-side-bar class="side-bar" />
   <app-languaje class="languaje"/>
-  @if (showLanding.hideShowLanding()) {
+  @if (viewsServices.hideShowLanding()) {
   <app-content />
   }
 </body>
-@if(showLanding.router()){
+@if(viewsServices.router()){
   <router-outlet />
 }

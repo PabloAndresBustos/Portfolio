@@ -14,8 +14,8 @@ import { LanguajeComponent } from './components/languaje/languaje.component';
 })
 export class AppComponent implements OnInit{
 
-  public showLanding = inject(ViewsService);
-  router = inject(Router)
+  viewsServices = inject(ViewsService);
+  redirect = inject(Router)
 
   /* Barra lateral */
   sideBarShow:boolean = false;
@@ -23,8 +23,8 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
     window.addEventListener('popstate', ()=>{
-      this.showLanding.hideShowLanding.set(true)
-      this.showLanding.router.set(false)
+      this.viewsServices.hideShowLanding.set(true)
+      this.viewsServices.router.set(false)
     })
   }
 }
