@@ -16,11 +16,11 @@ export class ViewsService {
 
   interface:any;
 
-  @HostListener('window:beforeunload', ['$event'])
+/*   @HostListener('window:beforeunload', ['$event'])
   reload(){
     this.hideShowLanding.set(false)
     this.router.set(true)
-  }
+  } */
 
   lenguaje(){
     this.http.get<any>('/assets/interface/languaje/interface.JSON')

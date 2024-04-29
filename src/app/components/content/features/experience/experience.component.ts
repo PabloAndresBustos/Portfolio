@@ -1,5 +1,4 @@
-import { Component, HostListener, OnInit, inject } from '@angular/core';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { Component, OnInit, inject } from '@angular/core';
 import { FadeInOutDirective } from 'app/components/directives/fadeIn/fade-in-out.directive';
 import { MatIconModule } from '@angular/material/icon';
 import { CardsDetailsComponent } from '../cards-details/cards-details.component';
@@ -11,7 +10,6 @@ import { ViewsService } from 'app/services/views.service';
   standalone: true,
   imports: [
     CardsDetailsComponent, 
-    HttpClientModule, 
     FadeInOutDirective, 
     MatIconModule
   ],
@@ -24,6 +22,6 @@ export class ExperienceComponent implements OnInit{
 
   ngOnInit(): void {
    this.viewsServices.lenguaje()
-   this.viewsServices.reload()
+   //this.viewsServices.reload()
   }
 }
