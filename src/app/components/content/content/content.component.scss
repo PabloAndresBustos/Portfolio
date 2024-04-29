@@ -204,6 +204,16 @@ body {
         }
     }
 
+    .technology{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        img{
+            width: 15%;
+        }
+    }
+
     app-about-me {
         margin-top: 80px;
     }
@@ -217,6 +227,16 @@ body {
         .contact {
             font-size: 10px;
             justify-content: center;
+        }
+
+        .technology{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                width: 45%;
+            }
         }
     }
 
