@@ -239,6 +239,17 @@ body {
                 width: 50%;
             }
         }
+
+        .pop-up {
+            backdrop-filter: blur(10px);
+            top: 15%;
+            width: 92%;
+            height: 220vh;
+
+            .close {
+                margin-left: 16%;
+            }
+        }
     }
 
     .content {
@@ -260,19 +271,6 @@ body {
 
     .button {
         margin-top: 20px;
-    }
-
-    body {
-        .pop-up {
-            backdrop-filter: blur(10px);
-            top: 15%;
-            width: 92%;
-            height: 220vh;
-
-            .close {
-                margin-left: 16%;
-            }
-        }
     }
 
     app-about-me{
