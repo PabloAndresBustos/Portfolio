@@ -53,7 +53,7 @@
                     "empresa": "Freelance",
                     "logo": "/assets/images/emprendedor.jpg",
                     "puesto": "Desarrollo Full Stack",
-                    "ingreso": "22/09/2022",
+                    "ingreso": "22/09/2021",
                     "egreso": "Actualidad",
                     "tareasRealizadas": "Inicié mi carrera en el desarrollo tecnológico centrándome en la creación de aplicaciones y páginas web a nivel individual. He trabajado en el desarrollo frontend utilizando tanto JavaScript puro (Vanilla JS) como Angular, complementando estas habilidades con experiencia en el backend a través de Node.js. Además, poseo conocimientos sólidos en modelado de bases de datos utilizando MySQL, lo que me permite abordar integralmente el desarrollo de soluciones web eficientes y escalables",
                     "logros": "Como desarrollador freelance, perfeccioné significativamente mis habilidades técnicas, especialmente en el manejo de módulos avanzados de Node.js tales como Sequelize, Bcrypt, XLSX-Populate, Google-APIs, Express, EJS, Path y Multer, entre otros. Además, amplié mi experiencia en el desarrollo frontend utilizando Angular, lo que me permitió crear interfaces de usuario más dinámicas y eficientes."
@@ -212,7 +212,7 @@
                     "empresa": "Freelance",
                     "logo": "/assets/images/emprendedor.jpg",
                     "puesto": "Desarrollo Full Stack",
-                    "ingreso": "22/09/2022",
+                    "ingreso": "22/09/2021",
                     "egreso": "Currently",
                     "tareasRealizadas": "I began my career in technology development by focusing on creating individual-level applications and web pages. I have worked on frontend development using both pure JavaScript (Vanilla JS) and Angular, complementing these skills with backend experience through Node.js. Additionally, I have solid knowledge in database modeling using MySQL, enabling me to comprehensively address the development of efficient and scalable web solutions.",
                     "logros": "As a freelance developer, I significantly enhanced my technical skills, particularly in handling advanced Node.js modules such as Sequelize, Bcrypt, XLSX-Populate, Google-APIs, Express, EJS, Path, and Multer, among others. Additionally, I expanded my experience in frontend development using Angular, enabling me to create more dynamic and efficient user interfaces."
