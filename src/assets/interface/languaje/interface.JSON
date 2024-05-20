@@ -73,7 +73,7 @@
                 {
                     "id": 1,
                     "lugar": "Codo a Codo",
-                    "logo": "https://inscripcionesagencia.bue.edu.ar/codoacodo/img/graficos/logoCACsinbloque.png",
+                    "logo": "assets/images/logos/codoAcodo.png",
                     "ingreso": "10/03/2024",
                     "estado": "Actualidad",
                     "tareasRealizadas": "Desarrollo BackEnd con Python ● Desarrollo FrontEnd con HTML, CSS ● Bootstrap ● JavaScript",
@@ -232,7 +232,7 @@
                 {
                     "id": 1,
                     "lugar": "Codo a Codo",
-                    "logo": "https://inscripcionesagencia.bue.edu.ar/codoacodo/img/graficos/logoCACsinbloque.png",
+                    "logo": "assets/images/logos/codoAcodo.png",
                     "ingreso": "10/03/2024",
                     "estado": "Currently",
                     "tareasRealizadas": "BackEnd Development with Python ● FrontEnd Development with HTML, CSS ● Bootstrap ● JavaScript",
