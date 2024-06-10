@@ -262,7 +262,7 @@
             ],
             "proyectos": [
                 {
-                    "id": 1,
+                    "id": 2,
                     "lugar": "Alura",
                     "logo": "https://www.emser.net/static/images/emser.jpg",
                     "name": "Arcor Sustitutos",
@@ -273,7 +273,7 @@
                     "download": "https://drive.google.com/drive/folders/15gzyXLhds0mTmPP9W5C1Ci6j5RVaaoHr?usp=sharing"
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "lugar": "Technology with porpuse",
                     "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
                     "name": "CV-ASSITANT",
@@ -284,7 +284,7 @@
                     "download": ""
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "lugar": "Technology with porpuse",
                     "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
                     "name": "Technology with porpuse - Copy",
@@ -295,7 +295,7 @@
                     "download": ""
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "lugar": "Technology with porpuse",
                     "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
                     "name": "Supermarket",
@@ -306,7 +306,7 @@
                     "download": ""
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "lugar": "Technology with porpuse",
                     "logo": "https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg",
                     "name": "Bookstore",
